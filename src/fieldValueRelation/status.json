@@ -1,0 +1,10 @@
+{
+  "Novo": "new",
+  "Aberto": "open",
+  "Responsável da Área": "open",
+  "Pendente": "pending",
+  "Enviado ao Call Center": "hold",
+  "Retorno ao Cliente": "hold",
+  "Em Execução": "hold",
+  "Encerrado": "closed"
+}

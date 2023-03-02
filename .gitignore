@@ -1,4 +1,8 @@
+*.key
+src/files/attachments/*
+
 # Logs
+src/log/*
 logs
 *.log
 npm-debug.log*
