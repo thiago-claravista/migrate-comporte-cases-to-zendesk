@@ -17,7 +17,7 @@ const getCaseFeeds = async (caseId, page = 1, limit = 100) => {
       if (data?.feeds?.length) {
         feeds.push(...data.feeds);
 
-        if (data.feeds.length < 100) {
+        if (data.feeds.length < limit) {
           break;
         }
 

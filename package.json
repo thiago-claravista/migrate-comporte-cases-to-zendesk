@@ -1,5 +1,5 @@
 {
-  "name": "migrate-cases-to-zendesk",
+  "name": "migrate-comporte-cases-to-zendesk",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",

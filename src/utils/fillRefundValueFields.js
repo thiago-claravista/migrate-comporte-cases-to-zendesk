@@ -26,7 +26,7 @@ const fillRefundValueFields = (value, subReason) => {
     },
     {
       id: 13262459933076,
-      tag_prefix: "devolucao_valor_app_nao_gerou_voucher_",
+      tag_prefix: "devolucao_valor_app_não_gerou_voucher_",
     },
     {
       id: 13260558391956,
@@ -46,7 +46,7 @@ const fillRefundValueFields = (value, subReason) => {
     },
     {
       id: 13261075730964,
-      tag_prefix: "devolucao_valor_site_nao_gerou_voucher_",
+      tag_prefix: "devolucao_valor_site_não_gerou_voucher_",
     },
   ];
 
@@ -54,7 +54,7 @@ const fillRefundValueFields = (value, subReason) => {
     .filter(({ tag_prefix }) => {
       return (
         tag_prefix.includes(plataform) &&
-        tag_prefix.includes(reason.replace("_de", ""))
+        tag_prefix.includes(reason.replace(/_de|_na/, ""))
       );
     })
     .map(({ id, tag_prefix }) => ({

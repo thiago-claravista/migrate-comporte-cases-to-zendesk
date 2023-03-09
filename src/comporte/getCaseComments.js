@@ -17,7 +17,7 @@ const getCaseComments = async (caseId, page = 1, limit = 100) => {
       if (data?.comments?.length) {
         comments.push(...data.comments);
 
-        if (data.comments.length < 100) {
+        if (data.comments.length < limit) {
           break;
         }
 

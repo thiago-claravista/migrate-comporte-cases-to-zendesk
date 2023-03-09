@@ -11,6 +11,7 @@ const getCase = async (caseNumber) => {
     console.log(`Erro ao obter o caso ${caseNumber} em Comporte`);
     throw {
       endpoint: JSON.stringify(url),
+      case: caseNumber,
       message: error.response?.data || error.response,
     };
   }

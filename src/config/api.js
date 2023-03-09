@@ -8,6 +8,15 @@ const zendesk_token = Buffer.from(`${zendeskUser}:${zendeskPassword}`).toString(
   "base64"
 );
 
+exports.GET_COMPORTE_CASES = (page = "", limit = "") => {
+  return {
+    url: `${comporteBaseUrl}/cases?page=${page}&limit=${limit}`,
+    headers: {
+      Authorization: comporteToken,
+    },
+  };
+};
+
 exports.GET_COMPORTE_CASE = (caseId) => {
   return {
     url: `${comporteBaseUrl}/cases/${caseId}`,
@@ -38,6 +47,15 @@ exports.GET_COMPORTE_CASE_COMMENTS = (caseId, page = "", limit = "") => {
 exports.GET_COMPORTE_CASE_FEEDS = (caseId, page = "", limit = "") => {
   return {
     url: `${comporteBaseUrl}/cases/${caseId}/feeds?page=${page}&limit=${limit}`,
+    headers: {
+      Authorization: comporteToken,
+    },
+  };
+};
+
+exports.GET_COMPORTE_CASE_FEED_ITEMS = (caseId, page = "", limit = "") => {
+  return {
+    url: `${comporteBaseUrl}/cases/${caseId}/feedItems?page=${page}&limit=${limit}`,
     headers: {
       Authorization: comporteToken,
     },

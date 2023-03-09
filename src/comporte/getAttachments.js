@@ -17,7 +17,7 @@ const getAttachments = async (caseId, page = 1, limit = 100) => {
       if (data?.attachments?.length) {
         attachments.push(...data.attachments);
 
-        if (data.attachments.length < 100) {
+        if (data.attachments.length < limit) {
           break;
         }
 

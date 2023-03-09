@@ -3,6 +3,7 @@ const getAccount = require("../comporte/getAccount");
 const getAttachments = require("../comporte/getAttachments");
 const getCaseComments = require("../comporte/getCaseComments");
 const getCaseFeeds = require("../comporte/getCaseFeeds");
+const getCaseFeedItems = require("../comporte/getCaseFeedItems");
 const getSurvey = require("../comporte/getSurvey");
 const createTicket = require("../zendesk/createTicket");
 const createUser = require("../zendesk/createUser");
@@ -20,6 +21,7 @@ const statusRelation = require("../fieldValueRelation/status.json");
 const priorityRelation = require("../fieldValueRelation/priority.json");
 const originRelation = require("../fieldValueRelation/origin.json");
 const salesforceReload = process.env.SALESFORCE_RELOAD === "1";
+const salesforceRetroactive = process.env.SALESFORCE_RELOAD === "2";
 
 const sendCaseToZendesk = async (_case) => {
   const status = statusRelation[_case.STATUS];
@@ -68,7 +70,7 @@ const sendCaseToZendesk = async (_case) => {
     surveyAnswer = survey?.RESPOSTA__C;
   }
 
-  // criar ticket na zendesk
+  // payload do ticket
   const payload = {
     ticket: {
       requester_id: user.id,
@@ -82,6 +84,7 @@ const sendCaseToZendesk = async (_case) => {
         "salesforce",
         "tickets_salesforce",
         salesforceReload ? "salesforce_reload" : "",
+        salesforceRetroactive ? "salesforce_retroactive" : "",
       ],
       description: _case.DESCRIPTION,
       comment: {
@@ -403,84 +406,123 @@ const sendCaseToZendesk = async (_case) => {
     },
   };
 
+  // cria o ticket na zendesk
   const ticket = await createTicket(payload);
-  if (ticket) {
-    console.log(
-      `Caso ${_case.ID} criado na Zendesk! ID ${ticket.id}; Status '${payload.ticket.status}'`
-    );
 
-    const updatePayload = {
-      ticket: {
-        comment: {
-          html_body: `<b>Anexos</b>`,
-          author_id: user.id,
-          public: false,
-        },
+  console.log(
+    `Caso ${_case.ID} criado na Zendesk! ID ${ticket.id}; Status '${payload.ticket.status}'`
+  );
+
+  const updatePayload = {
+    ticket: {
+      comment: {
+        html_body: `<b>Anexos</b>`,
+        author_id: user.id,
+        public: false,
       },
-    };
+    },
+  };
 
-    // obter comentarios do caso
-    const comments = await getCaseComments(_case.ID);
-    if (comments.length) {
-      // atualizar o ticket com os comentarios
-      console.log("Inserindo comentários...");
-      for (const comment of comments) {
-        if (!comment.CommentBody) continue;
+  // obter comentarios do caso
+  const comments = await getCaseComments(_case.ID);
+  if (comments.length) {
+    // atualizar o ticket com os comentarios
+    console.log("Inserindo comentários...");
+    for (const comment of comments) {
+      if (!comment.CommentBody) continue;
 
-        const date = localeDateString(comment.CreatedDate);
-        updatePayload.ticket.comment.html_body = `<small><i>[${date}]</i></small><p>${comment.CommentBody}</p>`;
-        await updateTicket(updatePayload, ticket.id);
-      }
-      console.log("Comentários inseridos!");
+      const date = localeDateString(comment.CreatedDate);
+      updatePayload.ticket.comment.html_body = `<small><i>[${date}]</i></small><p>${comment.CommentBody}</p>`;
+      await updateTicket(updatePayload, ticket.id);
     }
-
-    // obter feed
-    const feeds = await getCaseFeeds(_case.ID);
-    if (feeds.length) {
-      // atualizar o ticket com os feeds
-      console.log("Inserindo feeds...");
-      for (const feed of feeds) {
-        if (!feed.COMMENTBODY) continue;
-
-        const date = localeDateString(feed.CREATEDDATE);
-        updatePayload.ticket.comment.html_body = `<small><i>[${date}]</i></small><p>${feed.COMMENTBODY}</p>`;
-        await updateTicket(updatePayload, ticket.id);
-      }
-      console.log("Feeds inseridos!");
-    }
-
-    // obter anexos
-    const attachments = await getAttachments(_case.ID);
-    if (attachments.length) {
-      // atualizar o ticket com os anexos
-      console.log("Inserindo anexos...");
-      const uploads = [];
-      for (const attachment of attachments) {
-        // console.log(attachment);
-        const file = getAttachmentFile(attachment.Id);
-
-        if (file) {
-          const upload = await uploadFile(
-            `${attachment.Id}.${attachment.FileType}`,
-            file
-          );
-
-          if (upload.token) {
-            uploads.push(upload.token);
-          }
-        }
-      }
-
-      if (uploads.length) {
-        updatePayload.ticket.comment.html_body = `<b>Anexos</b>`;
-        updatePayload.ticket.comment.uploads = uploads;
-        await updateTicket(updatePayload, ticket.id);
-      }
-      console.log("Anexos inseridos!");
-    }
+    console.log("Comentários inseridos!");
   }
 
-  return ticket?.id;
+  // obter feed
+  const feeds = await getCaseFeeds(_case.ID);
+  if (feeds.length) {
+    // atualizar o ticket com os feeds
+    console.log("Inserindo feeds...");
+    for (const feed of feeds) {
+      if (!feed.COMMENTBODY) continue;
+
+      const date = localeDateString(feed.CREATEDDATE);
+      updatePayload.ticket.comment.html_body = `<small><i>[${date}]</i></small><p>${feed.COMMENTBODY}</p>`;
+      await updateTicket(updatePayload, ticket.id);
+    }
+    console.log("Feeds inseridos!");
+  }
+
+  // obter feedItems
+  const feedItems = await getCaseFeedItems(_case.ID);
+  if (feedItems.length) {
+    // atualizar o ticket com os feedItems
+    let concatBody = "";
+    console.log("Inserindo feedItems...");
+
+    for (let i = 0; i < feedItems.length; i++) {
+      const feedItem = feedItems[i];
+
+      if (!feedItem.BODY) continue;
+
+      if (feedItems.length >= 30) {
+        concatBody += `<p>${feedItem.BODY}</p><br>`;
+        if (i < feedItems.length - 1) continue;
+
+        updatePayload.ticket.comment.html_body = concatBody;
+      } else {
+        updatePayload.ticket.comment.html_body = `<p>${feedItem.BODY}</p>`;
+      }
+
+      await updateTicket(updatePayload, ticket.id);
+    }
+    console.log("FeedItems inseridos!");
+  }
+
+  // obter anexos
+  const attachments = await getAttachments(_case.ID);
+  if (attachments.length) {
+    // atualizar o ticket com os anexos
+    console.log("Inserindo anexos...");
+    const uploads = [];
+    for (const attachment of attachments) {
+      // console.log(attachment);
+      const file = getAttachmentFile(attachment.Id);
+
+      if (file) {
+        const upload = await uploadFile(
+          `${attachment.Id}.${attachment.FileType}`,
+          file
+        );
+
+        if (upload.token) {
+          uploads.push(upload.token);
+        }
+      }
+    }
+
+    if (uploads.length) {
+      updatePayload.ticket.comment.html_body = `<b>Anexos</b>`;
+      updatePayload.ticket.comment.uploads = uploads;
+      await updateTicket(updatePayload, ticket.id);
+    }
+    console.log("Anexos inseridos!");
+  }
+
+  if (_case.STATUS === "Encerrado") {
+    // fechar o ticket na zendesk
+    await updateTicket(
+      {
+        ticket: {
+          status: "closed",
+        },
+      },
+      ticket.id
+    );
+    console.log(`Ticket ${ticket.id} fechado na Zendesk!`);
+  }
+
+  return ticket.id;
 };
 
 module.exports = sendCaseToZendesk;

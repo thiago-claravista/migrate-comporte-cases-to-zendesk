@@ -1,12 +1,8 @@
 const fs = require("fs");
 
-/**
- * @param {Object} data
- * @param {Boolean} error
- */
-const insertLog = (data, error) => {
+const updateArrayIndex = (index) => {
   const logPath = "src/log";
-  const filename = `${error ? "errors" : "success"}.json`;
+  const filename = `arrIndex.json`;
   const filePath = `${logPath}/${filename}`;
   const exists = fs.existsSync(filePath);
 
@@ -22,21 +18,9 @@ const insertLog = (data, error) => {
       encoding: "utf-8",
     });
   const logJson = JSON.parse(logString || "{}");
-  const log = {
-    ...data,
-    register_date: new Date().toJSON(),
-  };
 
-  if (data?.case) {
-    logJson[data.case] = log;
-  } else {
-    if (logJson.others) {
-      logJson.others.push(log);
-    } else {
-      logJson.others = [log];
-    }
-  }
+  logJson["index"] = Number(index);
   fs.writeFileSync(filePath, JSON.stringify(logJson, null, 2));
 };
 
-module.exports = insertLog;
+module.exports = updateArrayIndex;
