@@ -1,6 +1,7 @@
 const getCase = require("./comporte/getCase");
 const getCases = require("./comporte/getCases");
 const getArrayIndex = require("./utils/getArrayIndex");
+const getCaseNumbersInserted = require("./utils/getCaseNumbersInserted");
 const getCasePage = require("./utils/getCasePage");
 const insertLog = require("./utils/insertLog");
 const putTicketIdInDatabaseRecord = require("./utils/putTicketIdInDatabaseRecord");
@@ -17,7 +18,7 @@ const init = async () => {
 
   // obtem o numero dos casos
   const caseNumbers = cases?.map((c) => c.CASENUMBER);
-  const caseNumbersInserted = Object.keys(require("./log/success.json"));
+  const caseNumbersInserted = getCaseNumbersInserted();
   const arrayIndex = getArrayIndex();
 
   // itera sobre os casos
