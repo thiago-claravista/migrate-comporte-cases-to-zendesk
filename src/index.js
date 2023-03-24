@@ -8,6 +8,7 @@ const putTicketIdInDatabaseRecord = require("./utils/putTicketIdInDatabaseRecord
 const sendCaseToZendesk = require("./utils/sendCaseToZendesk");
 const updateArrayIndex = require("./utils/updateArrayIndex");
 const updateCasePage = require("./utils/updateCasePage");
+const deleteTicket = require("./zendesk/deleteTicket");
 const findTicket = require("./zendesk/findTicket");
 
 const init = async () => {
@@ -78,7 +79,17 @@ const init = async () => {
       // updateArrayIndex(i + 1);
     } catch (error) {
       if (Object.keys(error).length) {
-        insertLog({ ...error, case: caseNumber, page: casePage }, true);
+        if (error.ticket_id) {
+          // deletar o ticket na zendesk
+          console.log(`Deletando o ticket ${error.ticket_id} na Zendesk...`);
+          try {
+            await deleteTicket(error.ticket_id);
+          } catch (error) {
+            insertLog({ ...error, case: caseNumber, page: casePage }, true);
+          }
+        } else {
+          insertLog({ ...error, case: caseNumber, page: casePage }, true);
+        }
       } else {
         console.log(error);
         insertLog({ error, case: caseNumber, page: casePage }, true);

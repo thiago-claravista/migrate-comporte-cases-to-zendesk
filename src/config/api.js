@@ -138,6 +138,15 @@ exports.UPDATE_ZENDESK_TICKET = (ticketId) => {
   };
 };
 
+exports.DELETE_ZENDESK_TICKET = (ticketId) => {
+  return {
+    url: `${zendeskBaseUrl}/tickets/${ticketId}`,
+    headers: {
+      Authorization: `Basic ${zendesk_token}`,
+    },
+  };
+};
+
 exports.UPLOAD_ZENDESK_FILE = (filename, contentType) => {
   return {
     url: `${zendeskBaseUrl}/uploads?filename=${filename}`,
