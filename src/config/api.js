@@ -8,9 +8,17 @@ const zendesk_token = Buffer.from(`${zendeskUser}:${zendeskPassword}`).toString(
   "base64"
 );
 
-exports.GET_COMPORTE_CASES = (page = "", limit = "") => {
+exports.GET_COMPORTE_CASES = (page = "", limit = "", options = {}) => {
+  const queries = [];
+
+  if ("subject" in options) {
+    queries.push(`subject=${encodeURIComponent(options.subject)}`);
+  }
+
   return {
-    url: `${comporteBaseUrl}/cases?page=${page}&limit=${limit}`,
+    url: `${comporteBaseUrl}/cases?page=${page}&limit=${limit}${
+      queries.length ? "&" + queries.join("&") : ""
+    }`,
     headers: {
       Authorization: comporteToken,
     },

@@ -12,23 +12,42 @@ const updateTicket = require("../zendesk/updateTicket");
 const uploadFile = require("../zendesk/uploadFile");
 const getAttachmentFile = require("./getAttachmentFile");
 const localeDateString = require("./localeDateString");
-const fillSubReasonFields = require("./fillSubReasonFields");
-const getSubReason = require("./getSubReason");
 const cleanString = require("./cleanString");
 const fillRefundValueFields = require("./fillRefundValueFields");
 const getRefundNeed = require("./getRefundNeed");
+const readReasons = require("./readReasons");
 const statusRelation = require("../fieldValueRelation/status.json");
 const priorityRelation = require("../fieldValueRelation/priority.json");
 const originRelation = require("../fieldValueRelation/origin.json");
 const salesforceReload = process.env.SALESFORCE_RELOAD === "1";
 const salesforceRetroactive = process.env.SALESFORCE_RELOAD === "2";
+const reasonsRelation = readReasons();
 
 const sendCaseToZendesk = async (_case) => {
   const status = statusRelation[_case.STATUS];
   const priority = priorityRelation[_case.PRIORITY] || "normal";
   const origin = originRelation[_case.ORIGIN];
-  const subReason = getSubReason(_case.TYPE, _case.SUBJECT);
-  const needRefund = getRefundNeed(subReason);
+  const foundReason = reasonsRelation[_case.SUBJECT];
+  const reasons = [];
+  const subreasons = [];
+
+  if (foundReason) {
+    const { reason, reason_field_id, subreason, subreason_field_id } =
+      foundReason;
+
+    reasons.push({ id: reason_field_id, value: reason });
+    subreasons.push({ id: subreason_field_id, value: subreason });
+  } else {
+    reasons.push(
+      ...reasonsRelation.empty_reasons.map((r) => ({
+        id: r.reason_field_id,
+        value: r.reason,
+      }))
+    );
+  }
+
+  // return console.log(reasons);
+  const needRefund = getRefundNeed(subreasons);
 
   // buscar o usuario na zendesk
   const email =
@@ -83,6 +102,7 @@ const sendCaseToZendesk = async (_case) => {
       tags: [
         "salesforce",
         "tickets_salesforce",
+        "carga_salesforce",
         salesforceReload ? "salesforce_reload" : "",
         salesforceRetroactive ? "salesforce_retroactive" : "",
       ],
@@ -190,7 +210,7 @@ const sendCaseToZendesk = async (_case) => {
           id: 12163187405076, // Data da compra (Pix)
           value: _case.DATA_DA_COMPRA_PIX__C?.slice(0, 10) || "",
         },
-        ...(needRefund ? fillRefundValueFields("sim", subReason) : []), // Devolução de valor
+        ...(needRefund ? fillRefundValueFields("sim", subreasons) : []), // Devolução de valor
         {
           id: 12215583745300, // Dígitos do cartão
           value: _case.DIGITOS_DO_CARTAO__C || "",
@@ -257,18 +277,7 @@ const sendCaseToZendesk = async (_case) => {
           id: 12224028107924, // Motivo
           value: "motivo_" + cleanString(_case.TYPE),
         },
-        {
-          id: 12398445283348, // Motivo - Encomendas
-          value: "encomendas_" + cleanString(_case.TYPE),
-        },
-        {
-          id: 12399916522900, // Motivo - LGPD
-          value: "lgpd_" + cleanString(_case.TYPE),
-        },
-        {
-          id: 12398945520788, // Motivo - Rodoviário
-          value: "rodoviário_" + cleanString(_case.TYPE),
-        },
+        ...reasons, // Motivo
         {
           id: 12218881082900, // Nº Cotação/ Coleta
           value: _case.N_COTACAO_COLETA__C || "",
@@ -369,7 +378,7 @@ const sendCaseToZendesk = async (_case) => {
           id: 12223794721940, // Site de Origem
           value: _case.SITE_DE_ORIGEM__C || "",
         },
-        ...fillSubReasonFields(subReason), // Sub - Motivo(s)
+        ...subreasons, // Sub - Motivo
         {
           id: 12224131666068, // Tipo de Cartão
           value: _case.TIPO_DE_CARTAO__C?.toLowerCase() || "",

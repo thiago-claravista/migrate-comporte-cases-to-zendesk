@@ -15,7 +15,15 @@ const init = async () => {
   // obtem os casos
   const casePage = getCasePage();
   console.log(`Obtendo os casos da página ${casePage}...`);
-  const cases = await getCases(casePage, 100);
+  const options = {
+    subject: "Informação - Benefício - Programa Fidelidade",
+  };
+  const cases = await getCases(casePage, 100, options);
+
+  if (!cases?.length) {
+    console.log(`Nenhum caso encontrado na página ${casePage}.`);
+    process.exit(0);
+  }
 
   // obtem o numero dos casos
   const caseNumbers = cases?.map((c) => c.CASENUMBER);
@@ -34,7 +42,9 @@ const init = async () => {
     console.log(`Verificando existência do caso ${caseNumber} na Zendesk...`);
     const [foundTicket, ...rest] = await findTicket(caseNumber);
     if (foundTicket) {
-      console.log(`Caso ${caseNumber} já presente na Zendesk`);
+      console.log(
+        `Caso ${caseNumber} já presente na Zendesk (ticket ${foundTicket.id}).`
+      );
 
       if (rest.length) {
         insertLog(
@@ -99,6 +109,7 @@ const init = async () => {
 
   // atualiza no log com a proxima pagina de busca de casos
   updateCasePage(casePage + 1);
+  init();
 };
 
 init();
