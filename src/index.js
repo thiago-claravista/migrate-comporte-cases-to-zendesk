@@ -13,20 +13,78 @@ const findTicket = require("./zendesk/findTicket");
 
 const init = async () => {
   // obtem os casos
-  const casePage = getCasePage();
-  console.log(`Obtendo os casos da página ${casePage}...`);
-  const options = {
-    subject: "Informação - Benefício - Programa Fidelidade",
-  };
-  const cases = await getCases(casePage, 100, options);
+  // const casePage = getCasePage();
+  // console.log(`Obtendo os casos da página ${casePage}...`);
+  // const options = {
+  //   subject: "Informação - Benefício - Programa Fidelidade",
+  // };
+  // const cases = await getCases(casePage, 100, options);
 
-  if (!cases?.length) {
-    console.log(`Nenhum caso encontrado na página ${casePage}.`);
-    process.exit(0);
-  }
+  // if (!cases?.length) {
+  //   console.log(`Nenhum caso encontrado na página ${casePage}.`);
+  //   process.exit(0);
+  // }
 
   // obtem o numero dos casos
-  const caseNumbers = cases?.map((c) => c.CASENUMBER);
+  // const caseNumbers = cases?.map((c) => c.CASENUMBER);
+  const caseNumbers = [
+    "00330374",
+    "00357985",
+    "00358384",
+    "00358540",
+    "00370925",
+    "00373232",
+    "00408387",
+    "00409027",
+    "00415548",
+    "00441176",
+    "00450583",
+    "00452718",
+    "00484216",
+    "00492626",
+    "00507033",
+    "00535312",
+    "00529848",
+    "00553294",
+    "00586636",
+    "00586679",
+    "00589048",
+    "00631512",
+    "00602513",
+    "00718292",
+    "00703300",
+    "00797753",
+    "00846003",
+    "00849904",
+    "00873036",
+    "00873633",
+    "00890312",
+    "00890843",
+    "00888796",
+    "00918705",
+    "00932579",
+    "00974125",
+    "00998666",
+    "01061948",
+    "01070263",
+    "01110549",
+    "01110937",
+    "01117610",
+    "01123239",
+    "01136313",
+    "01138172",
+    "01168839",
+    "01170080",
+    "01183090",
+    "01190036",
+    "01222198",
+    "01246796",
+    "01312715",
+    "01335380",
+    "01321574",
+    "01459659",
+    "01468887",
+  ];
   const caseNumbersInserted = getCaseNumbersInserted();
   const arrayIndex = getArrayIndex();
 
