@@ -13,8 +13,8 @@ const findTicket = require("./zendesk/findTicket");
 
 const init = async () => {
   // obtem os casos
-  // const casePage = getCasePage();
-  // console.log(`Obtendo os casos da página ${casePage}...`);
+  const casePage = getCasePage();
+  console.log(`Obtendo os casos da página ${casePage}...`);
   // const options = {
   //   subject: "Informação - Benefício - Programa Fidelidade",
   // };
