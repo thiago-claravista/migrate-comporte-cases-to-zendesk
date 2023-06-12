@@ -13,20 +13,8 @@ const findTicket = require("./zendesk/findTicket");
 
 const init = async () => {
   // obtem os casos
-  const casePage = getCasePage();
-  console.log(`Obtendo os casos da página ${casePage}...`);
-  // const options = {
-  //   subject: "Informação - Benefício - Programa Fidelidade",
-  // };
-  // const cases = await getCases(casePage, 100, options);
-
-  // if (!cases?.length) {
-  //   console.log(`Nenhum caso encontrado na página ${casePage}.`);
-  //   process.exit(0);
-  // }
-
-  // obtem o numero dos casos
-  // const caseNumbers = cases?.map((c) => c.CASENUMBER);
+  // const casePage = getCasePage();
+  const casePage = null;
   const caseNumbers = [
     "00186454",
     "00179509",
@@ -91,6 +79,26 @@ const init = async () => {
     "01459659",
     "01468887",
   ];
+
+  if (casePage) {
+    console.log(`Obtendo os casos da página ${casePage}...`);
+    const options = {
+      subject: "Informação - Benefício - Programa Fidelidade",
+    };
+    const cases = await getCases(casePage, 100, options);
+
+    if (!cases?.length) {
+      console.log(`Nenhum caso encontrado na página ${casePage}.`);
+      process.exit(0);
+    }
+
+    // obtem o numero dos casos
+    const _caseNumbers = cases?.map((c) => c.CASENUMBER);
+    if (_caseNumbers) {
+      caseNumbers.push(_caseNumbers);
+    }
+  }
+
   const caseNumbersInserted = getCaseNumbersInserted();
   const arrayIndex = getArrayIndex();
 
@@ -172,8 +180,10 @@ const init = async () => {
   }
 
   // atualiza no log com a proxima pagina de busca de casos
-  updateCasePage(casePage + 1);
-  init();
+  if (casePage) {
+    updateCasePage(casePage + 1);
+    init();
+  }
 };
 
 init();
