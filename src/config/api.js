@@ -151,6 +151,7 @@ exports.DELETE_ZENDESK_TICKET = (ticketId) => {
     url: `${zendeskBaseUrl}/tickets/${ticketId}`,
     headers: {
       Authorization: `Basic ${zendesk_token}`,
+      "Content-Type": "application/json",
     },
   };
 };

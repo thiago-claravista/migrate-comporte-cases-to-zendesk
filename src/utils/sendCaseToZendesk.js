@@ -241,9 +241,23 @@ const sendCaseToZendesk = async (_case) => {
             "empresa_do_grupo_encomendas_" + cleanString(_case.EMPRESAGRUPO__C),
         },
         {
+          id: 13990068675476, // Empresa do Grupo Encomendas - GUIDE
+          value:
+            "empresa_do_grupo_encomendas_" +
+            cleanString(_case.EMPRESAGRUPO__C) +
+            "_guide",
+        },
+        {
           id: 12333174578452, // Empresa do Grupo Rodoviário
           value:
             "empresa_do_grupo_rodoviario_" + cleanString(_case.EMPRESAGRUPO__C),
+        },
+        {
+          id: 12333174578452, // Empresa do Grupo Rodoviário - GUIDE
+          value:
+            "empresa_do_grupo_rodoviario_" +
+            cleanString(_case.EMPRESAGRUPO__C) +
+            "_guide",
         },
         {
           id: 12215886361876, // FarolSLA
@@ -518,18 +532,16 @@ const sendCaseToZendesk = async (_case) => {
     console.log("Anexos inseridos!");
   }
 
-  if (_case.STATUS === "Encerrado") {
-    // fechar o ticket na zendesk
-    await updateTicket(
-      {
-        ticket: {
-          status: "closed",
-        },
+  // fechar o ticket na zendesk
+  await updateTicket(
+    {
+      ticket: {
+        status: "closed",
       },
-      ticket.id
-    );
-    console.log(`Ticket ${ticket.id} fechado na Zendesk!`);
-  }
+    },
+    ticket.id
+  );
+  console.log(`Ticket ${ticket.id} fechado na Zendesk!`);
 
   return ticket.id;
 };
