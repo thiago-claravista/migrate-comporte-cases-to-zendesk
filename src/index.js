@@ -15,13 +15,7 @@ const init = async () => {
   // obtem os casos
   // const casePage = getCasePage();
   const casePage = null;
-  const caseNumbers = [
-    "00357985",
-    "00358384",
-    "00358540",
-    "00797753",
-    "01170080",
-  ];
+  const caseNumbers = ["00357985", "00358384", "00358540", "00330374"];
 
   if (casePage) {
     console.log(`Obtendo os casos da página ${casePage}...`);
