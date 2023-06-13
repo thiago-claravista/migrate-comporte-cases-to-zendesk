@@ -445,30 +445,27 @@ const sendCaseToZendesk = async (_case) => {
       },
     },
   };
-  let updateCount = 1;
 
   // obter comentarios do caso
   const comments = await getCaseComments(_case.ID);
   if (comments.length) {
     // atualizar o ticket com os comentarios
+    let concatBody = "";
     console.log("Inserindo comentários...");
+
     for (let i = 0; i < comments.length; i++) {
       const comment = comments[i];
 
       if (!comment.CommentBody) continue;
 
       const date = localeDateString(comment.CreatedDate);
+      concatBody += `<small><i>[${date}]</i></small><p>${comment.CommentBody}</p><br>`;
 
-      if (comments.length >= 30 - updateCount) {
-        concatBody += `<small><i>[${date}]</i></small><p>${comment.CommentBody}</p><br>`;
-        if (i < comments.length - 1) continue;
-
-        updatePayload.ticket.comment.html_body = concatBody;
-      } else {
-        updatePayload.ticket.comment.html_body = `<small><i>[${date}]</i></small><p>${comment.CommentBody}</p>`;
+      if (i < comments.length - 1) {
+        continue;
       }
 
-      updateCount++;
+      updatePayload.ticket.comment.html_body = concatBody;
       await updateTicket(updatePayload, ticket.id);
     }
     console.log("Comentários inseridos!");
@@ -478,7 +475,9 @@ const sendCaseToZendesk = async (_case) => {
   const feeds = await getCaseFeeds(_case.ID);
   if (feeds.length) {
     // atualizar o ticket com os feeds
+    let concatBody = "";
     console.log("Inserindo feeds...");
+
     for (let i = 0; i < feeds.length; i++) {
       const feed = feeds[i];
 
@@ -486,16 +485,13 @@ const sendCaseToZendesk = async (_case) => {
 
       const date = localeDateString(feed.CREATEDDATE);
 
-      if (feeds.length >= 30 - updateCount) {
-        concatBody += `<small><i>[${date}]</i></small><p>${feed.COMMENTBODY}</p><br>`;
-        if (i < feeds.length - 1) continue;
-
-        updatePayload.ticket.comment.html_body = concatBody;
-      } else {
-        updatePayload.ticket.comment.html_body = `<small><i>[${date}]</i></small><p>${feed.COMMENTBODY}</p>`;
+      concatBody += `<small><i>[${date}]</i></small><p>${feed.COMMENTBODY}</p><br>`;
+      if (i < feeds.length - 1) {
+        continue;
       }
 
-      updateCount++;
+      updatePayload.ticket.comment.html_body = concatBody;
+
       await updateTicket(updatePayload, ticket.id);
     }
     console.log("Feeds inseridos!");
@@ -513,16 +509,11 @@ const sendCaseToZendesk = async (_case) => {
 
       if (!feedItem.BODY) continue;
 
-      if (feedItems.length >= 30 - updateCount) {
-        concatBody += `<p>${feedItem.BODY}</p><br>`;
-        if (i < feedItems.length - 1) continue;
+      concatBody += `<p>${feedItem.BODY}</p><br>`;
+      if (i < feedItems.length - 1) continue;
 
-        updatePayload.ticket.comment.html_body = concatBody;
-      } else {
-        updatePayload.ticket.comment.html_body = `<p>${feedItem.BODY}</p>`;
-      }
+      updatePayload.ticket.comment.html_body = concatBody;
 
-      updateCount++;
       await updateTicket(updatePayload, ticket.id);
     }
     console.log("FeedItems inseridos!");
@@ -532,8 +523,9 @@ const sendCaseToZendesk = async (_case) => {
   const attachments = await getAttachments(_case.ID);
   if (attachments.length) {
     // atualizar o ticket com os anexos
-    console.log("Inserindo anexos...");
     const uploads = [];
+    console.log("Inserindo anexos...");
+
     for (const attachment of attachments) {
       // console.log(attachment);
       const file = getAttachmentFile(attachment.Id);
