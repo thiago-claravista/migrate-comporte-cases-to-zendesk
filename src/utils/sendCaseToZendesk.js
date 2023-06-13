@@ -545,7 +545,6 @@ const sendCaseToZendesk = async (_case) => {
     if (uploads.length) {
       updatePayload.ticket.comment.html_body = `<b>Anexos</b>`;
       updatePayload.ticket.comment.uploads = uploads;
-      updateCount++;
       await updateTicket(updatePayload, ticket.id);
     }
     console.log("Anexos inseridos!");
