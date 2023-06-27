@@ -16,12 +16,14 @@ const cleanString = require("./cleanString");
 const fillRefundValueFields = require("./fillRefundValueFields");
 const getRefundNeed = require("./getRefundNeed");
 const readReasons = require("./readReasons");
+const readGroupCompany = require("./readGroupCompany");
 const statusRelation = require("../fieldValueRelation/status.json");
 const priorityRelation = require("../fieldValueRelation/priority.json");
 const originRelation = require("../fieldValueRelation/origin.json");
 const salesforceReload = process.env.SALESFORCE_RELOAD === "1";
 const salesforceRetroactive = process.env.SALESFORCE_RELOAD === "2";
 const reasonsRelation = readReasons();
+const groupCompanyRelation = readGroupCompany();
 
 const sendCaseToZendesk = async (_case) => {
   const status = statusRelation[_case.STATUS];
@@ -30,6 +32,7 @@ const sendCaseToZendesk = async (_case) => {
   const foundReason = reasonsRelation[_case.SUBJECT];
   const reasons = [];
   const subreasons = [];
+  const foundGroupCompany = groupCompanyRelation[_case.EMPRESAGRUPO__C];
 
   if (foundReason) {
     const { reason, reason_field_id, subreason, subreason_field_id } =
@@ -210,6 +213,14 @@ const sendCaseToZendesk = async (_case) => {
           id: 12163187405076, // Data da compra (Pix)
           value: _case.DATA_DA_COMPRA_PIX__C?.slice(0, 10) || "",
         },
+        {
+          id: 16724167637524, // Data de criação - SF
+          value: _case.CREATEDDATE || "",
+        },
+        {
+          id: 16724144361236, // Data de resolução - SF
+          value: _case.CLOSEDDATE || "",
+        },
         ...(needRefund ? fillRefundValueFields("sim", subreasons) : []), // Devolução de valor
         {
           id: 12215583745300, // Dígitos do cartão
@@ -231,34 +242,8 @@ const sendCaseToZendesk = async (_case) => {
           id: 12215666652820, // E-mail do cadastro (Pix)
           value: _case.E_MAIL_DO_CADASTRO_PIX__C || "",
         },
-        {
-          id: 12222812145044, // Empresa do Grupo - LGPD
-          value: "empresa_do_grupo_lgpd_" + cleanString(_case.EMPRESAGRUPO__C),
-        },
-        {
-          id: 12333231287828, // Empresa do Grupo Encomendas
-          value:
-            "empresa_do_grupo_encomendas_" + cleanString(_case.EMPRESAGRUPO__C),
-        },
-        {
-          id: 13990068675476, // Empresa do Grupo Encomendas - GUIDE
-          value:
-            "empresa_do_grupo_encomendas_" +
-            cleanString(_case.EMPRESAGRUPO__C) +
-            "_guide",
-        },
-        {
-          id: 12333174578452, // Empresa do Grupo Rodoviário
-          value:
-            "empresa_do_grupo_rodoviario_" + cleanString(_case.EMPRESAGRUPO__C),
-        },
-        {
-          id: 12333174578452, // Empresa do Grupo Rodoviário - GUIDE
-          value:
-            "empresa_do_grupo_rodoviario_" +
-            cleanString(_case.EMPRESAGRUPO__C) +
-            "_guide",
-        },
+        // Empresa do Grupo
+        foundGroupCompany,
         {
           id: 12215886361876, // FarolSLA
           value: Number(_case.FAROLSLA__C) || 0,

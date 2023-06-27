@@ -1,805 +1,805 @@
-﻿subject;reason_subreason;tag;field_id;
-;Motivo - Rodoviário - Retroativo Salesforce;rodoviário_retroativo_salesforce;12398945520788;
-;Motivo - LGPD - Retroativo Salesforce;lgpd_retroativo_salesforce;12399916522900;
-;Motivo - Encomendas - Retroativo Salesforce;encomendas_retroativo_salesforce;12398445283348;
-Informação - Embarque - Horário;Motivo – Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_horário;12246310814356;
-Ligação Muda / Engano - Ligação Muda / Engano;Motivo – Rodoviário;rodoviário_ligação;12398945520788;
-;Sub - Motivo - Ligação- Rodoviário;sub_motivo_ligação_rod_muda;12273335133716;
-Call Back - Call Back;Motivo – Rodoviário;rodoviário_call_back;12398945520788;
-;Sub - Motivo - Call Back - Rodoviário;sub_motivo_call_back_rod_call_back;12273281139860;
-Solicitação - Atendimento - Chamado Pendente;Motivo – Rodoviário;rodoviário_solicitação_atendimento;12398945520788;
-;Sub - Motivo - Solicitação - Atendimento - Rodoviário;sub_motivo_solicitação_atendimento_rod_chamado_pendente;12273204012564;
-Informação - Passagem - Remarcação / Transferência;Motivo – Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_remarcação_/_transferência;12246362839188;
-Informação - Passagem - Compra;Motivo – Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_compra;12246362839188;
-Venda - Passagem;Motivo - Rodoviário;rodoviário_vendas;12398945520788;
-;Sub - Motivo - Vendas - Rodoviário;sub_motivo_vendas_rod_passagem;12273232626196;
-Informação - Cancelamento - Passagem;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Solicitação - Cancelamento - Rodoviário;sub_motivo_solicitação_cancelamento_rod_passagem;12273197974676;
-Cliente Não Identificado - Cliente Não identificado;Motivo - Rodoviário;rodoviário_cliente_não_identificado;12398945520788;
-;Sub - Motivo - Cliente não identificado - Rodoviário;sub_motivo_cliente_não_identificado_rod_cliente_não_identificado;12273282944276;
-Informação - Itinerário - Linha;Motivo - Rodoviário;rodoviário_informação_itinerário;12398945520788;
-;Sub - Motivo - Informação - Itinerário - Rodoviário;sub_motivo_informacão_itinerário_rod_linha;12247431719828;
-Informação - Atendimento - Encomendas;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Informação - Embarque - Terminal Rodoviário;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_terminal_rodoviário;12246310814356;
-Informação - Operacional - Causas Imprevistas Externas;Motivo - Rodoviário;rodoviário_informação_operacional;12398945520788;
-;Sub - Motivo - Informação - Operacional - Rodoviário;sub_motivo_informacão_operacional_rod_causas_imprevistas_externas;12248209756308;
-Informação - Benefício - Idoso 100%;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_idoso_100;12245897382804;
-Informação - Benefício - Estudante;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_estudante;12245897382804;
-Informação - Atendimento - Sac;Motivo - Rodoviário;rodoviário_informação_atendimento;12398945520788;
-;Sub - Motivo - Informação - Atendimento - Rodoviário;sub_motivo_informacão_atendimento_rod_sac;12226677237012;
-Informação - Embarque - Valores;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_valores;12246310814356;
-Informação - Atendimento - Agência;Motivo - Rodoviário;rodoviário_informação_atendimento;12398945520788;
-;Sub - Motivo - Informação - Atendimento - Rodoviário;sub_motivo_informacão_atendimento_rod_agência;12226677237012;
-Informação - Embarque - Menor de Idade;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_menor_de_idade;12246310814356;
-Solicitação - Cancelamento - Passagem;Motivo - Rodoviário;rodoviário_solicitação_cancelamento;12398945520788;
-;Sub - Motivo - Solicitação - Cancelamento - Rodoviário;sub_motivo_solicitação_cancelamento_rod_passagem;12273197974676;
-Informações - Site - Status de Compra / Konduto;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_status_de_compra;12247903864468;
-Informação - Embarque - Achados e Perdidos;Motivo - Rodoviário;rodoviário_informação_embarque;12246310814356;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_achados_e_perdidos;12246310814356;
-Informação - Embarque - Ponto de Parada;Motivo - Rodoviário;rodoviário_informação_embarque;12246310814356;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_ponto_de_parada;12246310814356;
-Informação - Coleta - Agendar;Motivo - Encomendas;encomendas_informação_coleta;12398445283348;
-;Sub - Motivo - Informação - Coleta - Encomendas;sub_motivo_informacão_coleta_encom_agendar;12273633901076;
-Informação - Benefício - Vale Transporte;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_vale_transporte;12245897382804;
-Informação - Embarque - Documentos;Motivo - Rodoviário;rodoviário_informação_embarque;12246310814356;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_documentos;12246310814356;
-Informação - Embarque - Animais;Motivo - Rodoviário;rodoviário_informação_embarque;12246310814356;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_animais;12246310814356;
-Informação - Atendimento - Matriz;Motivo - Rodoviário;rodoviário_informação_atendimento;12398945520788;
-;Sub - Motivo - Informação - Atendimento - Rodoviário;sub_motivo_informacão_atendimento_rod_matriz;12226677237012;
-Informação - Passagem - Remarcação;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_remarcação;12246362839188;
-Informação - Passagem - Status de Compra;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_status_de_compra;12246362839188;
-Informação - Ônibus - Serviços;Motivo - Rodoviário;rodoviário_informação_ônibus;12398945520788;
-;Sub - Motivo - Informação - Ônibus - Rodoviário;sub_motivo_informacão_ônibus_rod_serviços;12248200205972;
-Informação - Passagem - Descrição;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_descrição;12246362839188;
-Informação - Itinerário - Percurso;Motivo - Rodoviário;rodoviário_informação_itinerário;12398945520788;
-;Sub - Motivo - Informação - Itinerário - Rodoviário;sub_motivo_informacão_itinerário_rod_percurso;12247431719828;
-Informação - Passagem - Transferência;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_transferência;12246362839188;
-Informação - Embarque - Bagagem;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_bagagem;12246310814356;
-Solicitação - Bagagem - Achados e Perdidos;Motivo - Rodoviário;rodoviário_solicitação_bagagem;12398945520788;
-;Sub - Motivo - Solicitação - Bagagem - Rodoviário;sub_motivo_solicitação_bagagem_rod_achados_e_perdidos;12273207766676;
-Pedido - Cotação - Orçamento;Motivo - Encomendas;encomendas_pedido_cotação;12398445283348;
-;Sub - Motivo - Pedido - Cotação - Encomendas;sub_motivo_pedido_cotação_encom_orçamento;12274898207252;
-Informações - Site - Erro Código Cartão;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_site_rod_erro_codigo_cartão;12247903864468;
-Informações - Site - Auxílio de Login;Motivo - Encomendas;encomendas_informações_site;12398445283348;
-;Sub - Motivo - Informações - Site - Encomendas;sub_motivo_informacão_site_encom_auxílio_de_login;12274128582292;
-Informações - Site - Auxílio de Cadastro;Motivo - Encomendas;encomendas_informações_site;12398445283348;
-;Sub - Motivo - Informações - Site - Encomendas;sub_motivo_informacão_site_encom_auxílio_de_login;12274128582292;
-Informação - Atendimento - Endereço/Telefone Balcão;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_endereço_telefone_balcão;12274177107604;
-Informações - Site - Voucher;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_voucher;12247903864468;
-Informação - Benefício - ID Jovem;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_idjovem;12245897382804;
-Informações - Site - Status de Compra;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_site_rod_status_de_compra;12247903864468;
-Informação - Rastreio - Chegou no Destino;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348;
-;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_chegou_no_destino;12273951908756;
-Reclamação - Site - Cobrança Indevida;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_cobrança_indevida;12254661429908;
-Ligação - Muda;Motivo - Encomendas;encomendas_ligação;12398445283348;
-;Sub - Motivo - Ligação- Encomendas;sub_motivo_ligação_rod_muda_enc;12693923104020;
-Consulta - Caso via Bot;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Informação - Benefício - Programa Fidelidade;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_programa_fidelidade;12245897382804;
-Informações - Site - Cartão de Embarque / QR Code;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_cartão_embarque;12247903864468;
-Informação - Benefício - Deficiente Físico;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_deficiente_físico;12245897382804;
-Ligação - Queda;Motivo - Encomendas;encomendas_ligação;12398445283348;
-;Sub - Motivo - Ligação- Encomendas;sub_motivo_ligação_rod_queda_enc;12693923104020;
-Reclamação - Passagem - Cancelamento;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_cancelamento;12253769506324;
-Informação - Rastreio - Prazo Chegada;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348;
-;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_prazo_chegada;12273951908756;
-Informação - Operacional - Causas Imprevistas Internas;Motivo - Rodoviário;rodoviário_informação_operacional;12398945520788;
-;Sub - Motivo - Informação - Operacional - Rodoviário;sub_motivo_informacão_operacional_rod_causas_imprevistas_internas;12248209756308;
-Informações - Site - Formas de Pagamento;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_formas_de_pagamento;12247903864468;
-Informação - Atendimento - Cidades Atendidas;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_cidades_atendidas;12274177107604;
-Informação - Ônibus - Frota;Motivo - Rodoviário;rodoviário_informação_ônibus;12398945520788;
-;Sub - Motivo - Informação - Ônibus - Rodoviário;sub_motivo_informacão_ônibus_rod_frota;12248200205972;
-Informações - Site - Parceiros;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_parceiros;12247903864468;
-Informação - Itinerário - Ponto de Parada;Motivo - Rodoviário;rodoviário_informação_itinerário;12398945520788;
-;Sub - Motivo - Informação - Itinerário - Rodoviário;sub_motivo_informacão_itinerário_rod_ponto_de_parada;12247431719828;
-Informações - Site - Afinidade;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_afinidade;12247903864468;
-Informação - Benefício - Idoso 50%;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_idoso_50;12245897382804;
-Reclamação - Embarque - Horário;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_horário;12252091115796;
-Solicitação - Passagem - Transferência;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788;
-;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_transferência;12273286643220;
-Reclamação - Cobrança Indevida - Pix;Motivo - Rodoviário;rodoviário_reclamação_cobrança_indevida;12398945520788;
-;Sub - Motivo - Reclamação - Cobrança Indevida - Rodoviário;sub_motivo_reclamação_cobrança_indevida_rod_pix;12253898925972;
-Ligação - Engano;Motivo - Encomendas;encomendas_ligação;12398445283348;
-;Sub - Motivo - Ligação- Encomendas;sub_motivo_ligação_rod_engano_enc;12693923104020;
-Informação - Passagem - Composição de Valores;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_composição_de_valores;12246362839188;
-Reclamação - Atendimento - Bilheteiro;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788;
-;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_bilheteiro;12251594549652;
-Informações - Site - Inoperante;Motivo - Encomendas;encomendas_informações_site;12398445283348;
-;Sub - Motivo - Informações - Site - Encomendas;sub_motivo_informacão_site_encom_inoperante;12274128582292;
-Reclamação - Site - Erro de Estorno;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_de_estorno;12254661429908;
-Solicitação - Bagagem - Extravio de Bagagem;Motivo - Rodoviário;rodoviário_solicitação_bagagem;12398945520788;
-;Sub - Motivo - Solicitação - Bagagem - Rodoviário;sub_motivo_solicitação_bagagem_rod_extravio_de_bagagem;12273207766676;
-Informações - Site - Auxílio na Compra;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_auxílio_na_compra;12247903864468;
-Solicitação - LGPD - Atualização de Dados;Motivo - LGPD;lgpd_solicitação_lgpd;12399916522900;
-;Sub - Motivo - Solicitação - LGPD ;sub_motivo_solicitação_lgpd_atualização_de_dados;12275550268820;
-Informação - LGPD - Atualização de Dados;Motivo - LGPD;lgpd_informação_lgpd;12399916522900;
-;Sub - Motivo - Informação - LGPD ;sub_motivo_informacão_lgpd_atualização_de_dados;12275442664212;
-Reclamação - Motorista - Não Cumpriu Horário;Motivo - Rodoviário;rodoviário_reclamação_motorista;12398945520788;
-;Sub - Motivo - Reclamação - Motorista - Rodoviário;sub_motivo_reclamação_motorista_rod_não_cumpriu_horário;12252332794388;
-Reclamação - Atendimento - Motorista;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348;
-;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_motoristas;12274254405268;
-Informações - Site - Programa Fidelidade;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_programa_fidelidade;12247903864468;
-Sugestão - Embarque - Horário;Motivo - Rodoviário;rodoviário_sugestão_embarque;12398945520788;
-;Sub - Motivo - Sugestão - Embarque - Rodoviário;sub_motivo_sugestão_embarque_rod_horário;12255719531156;
-Reclamação - Site - Erro na Compra;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_na_compra;12254661429908;
-Reclamação - Motorista - Não Realizou Embarque / Desembarque;Motivo - Rodoviário;rodoviário_reclamação_motorista;12398945520788;
-;Sub - Motivo - Reclamação - Motorista - Rodoviário;sub_motivo_reclamação_motorista_rod_não_realizou_embarque_desembarque;12252332794388;
-Informação - Atendimento - Central de Relacionamento;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_central_de_relacionamento;12274177107604;
-Reclamação - Motorista - Deixou Passageiro;Motivo - Rodoviário;rodoviário_reclamação_motorista;12398945520788;
-;Sub - Motivo - Reclamação - Motorista - Rodoviário;sub_motivo_reclamação_motorista_rod_deixou_passageiro;12252332794388;
-Informações - Cadastro - Eventual;Motivo - Encomendas;encomendas_informações_cadastro;12398445283348;
-;Sub - Motivo - Informação - Cadastro - Encomendas;sub_motivo_informacão_cadastro_encom_eventual;12274307278100;
-Informação - Benefício - Afinidade;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_afinidade;12245897382804;
-Reclamação - Operacional - Extravio de Bagagem;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788;
-;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_extravio_de_bagagem;12253599088660;
-Informação - Coleta - Confirmar;Motivo - Encomendas;encomendas_informação_coleta;12398445283348;
-;Sub - Motivo - Informação - Coleta - Encomendas;sub_motivo_informacão_coleta_encom_confirmar;12273633901076;
-Informação - Atendimento - Dias e Horários do Balcão;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_dias_e_horários_do_balcão;12274177107604;
-Informação - Atendimento - Motorista;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_motoristas;12274177107604;
-Reclamação - Atendimento - Agência;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788;
-;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_agência;12251594549652;
-Reclamação - Ônibus - Categoria do Veículo;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_categoria_do_veículo;12252812163092;
-Reclamação - Motorista - Direção Inadequada;Motivo - Rodoviário;rodoviário_reclamação_motorista;12398945520788;
-;Sub - Motivo - Reclamação - Motorista - Rodoviário;sub_motivo_reclamação_motorista_rod_direção_inadequada;12252332794388;
-Reclamação - Atendimento - Atendimento Isa;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788;
-;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_atendimento_isa;12251594549652;
-Call Back - Antifraude;Motivo - Rodoviário;rodoviário_call_back;12398945520788;
-;Sub - Motivo - Call Back - Rodoviário;sub_motivo_call_back_rod_antifraude;12273281139860;
-Informação - Passagem - Troca de portador;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_troca_de_portador;12246362839188;
-Elogio - Atendimento - Sac;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788;
-;Sub - Motivo - Elogio - Atendimento - Rodoviário;Não Possui;12254991202964;
-Informação - Rastreio - Embarcada/Postada;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348;
-;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_embarcada_postada;12273951908756;
-Reclamação - APP - Cobrança Indevida;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_cobrança_indevida;12254905117844;
-Reclamação - Ônibus - Quebra de Veículo/Interrupção de Viagem;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_quebra_de_veículo_interrupção_de_viagem;12252812163092;
-Informação - Entrega - Confirmar;Motivo - Encomendas;encomendas_informação_entrega;12398445283348;
-;Sub - Motivo - Informação - Entrega - Encomendas;sub_motivo_informacão_entrega_encom_confirmar;12273689467668;
-Informação - Embarque - Plataforma de embarque / desembarque;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_plataforma_de_embarque_e_desembarque;12246310814356;
-Informação - Ônibus - Fretamento;Motivo - Rodoviário;rodoviário_informação_ônibus;12398945520788;
-;Sub - Motivo - Informação - Ônibus - Rodoviário;sub_motivo_informacão_ônibus_rod_fretamento;12248200205972;
-Informações - APP - Auxílio de Login;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_auxílio_de_login;12248328958356;
-Reclamação - Cobrança Indevida - Cartão de Crédito;Motivo - Rodoviário;rodoviário_reclamação_cobrança_indevida;12398945520788;
-;Sub - Motivo - Reclamação - Cobrança Indevida - Rodoviário;sub_motivo_reclamação_cobrança_indevida_rod_cartão_de_crédito;12253898925972;
-Solicitação - Passagem - Remarcação;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788;
-;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_remarcação;12273286643220;
-Informação - Rastreio - Confirmar Retirada;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348;
-;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_confirmar_retirada;12273951908756;
-Informações - APP - Status de Compra / Konduto;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_status_da_compra;12248328958356;
-Informações - APP - Auxílio de Cadastro;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_auxílio_de_cadastro;12248328958356;
-Reclamação - Site - Erro de Cancelamento;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_de_cancelamento;12254661429908;
-Reclamação - Passagem - Remarcação / Transferência;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_remarcação_tranferência;12253769506324;
-Informação - Documentos - Envio Sem NF;Motivo - Encomendas;encomendas_informação_documentos;12398445283348;
-;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_envio_sem_nf;12273844602516;
-Informações - Gerais - Produtos não Transportados;Motivo - Encomendas;encomendas_informações_gerais;12398445283348;
-;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_produtos_não_transportados;12274550867092;
-Informações - Gerais - Prazos Estimado de Entrega;Motivo - Encomendas;encomendas_informações_gerais;12398445283348;
-;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_prazos_estimados_de_entrega;12274550867092;
-Informação - Passagem - 2ª Via de Bilhete;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_2_via_de_bilhete;12246362839188;
-Informações - Site - Erro de Login;Motivo - Encomendas;encomendas_informações_site;12398445283348;
-;Sub - Motivo - Informações - Site - Encomendas;sub_motivo_informacão_site_encom_erro_de_login;12274128582292;
-Reclamação - Benefícios - Estudante;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_estudante;12251763077396;
-Reclamação - Operacional - Causas Imprevistas Externas;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788;
-;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_causas_imprevistas_externas;12253599088660;
-Reclamação - Ônibus - Poltrona;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_poltrona;12252812163092;
-Reclamação - Ônibus - Limpeza;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_limpeza;12252812163092;
-Reclamação - Operacional - Substituição de Veículo;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788;
-;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_substituição_de_veículo;12253599088660;
-Reclamação - Operacional - Danificação de Bagagem;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788;
-;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_substituição_de_veículo;12253599088660;
-Reclamação - Ônibus - Ar–Condicionado;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_ar_condicionado;12252812163092;
-Informação - Embarque - Trevo;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_trevo;12246310814356;
-Reclamação - Atendimento - Sac;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788;
-;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_sac;12251594549652;
-Reclamação - Operacional - Lotação;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788;
-;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_lotação;12253599088660;
-Informações - Site - Cupom;Motivo - Rodoviário;rodoviário_informação_site;12398945520788;
-;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_cupom;12247903864468;
-Informações - APP - Cartão de Embarque / QR Code;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_cartão_embarque;12248328958356;
-Elogio - Atendimento - Motorista;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788;
-;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_motorista;12254991202964;
-Reclamação - Embarque - Ponto de Parada;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_ponto_de_parada;12252091115796;
-Reclamação - Itinerário - Linha;Motivo - Rodoviário;rodoviário_reclamação_itinerário;12398945520788;
-;Sub - Motivo - Reclamação - Itinerário - Rodoviário;sub_motivo_reclamação_itinerário_rod_linha;12253857441684;
-Reclamação - Benefícios - Idoso 100%;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_idoso_100;12251763077396;
-Informação - Embarque - Bagagem de Mão;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_bagagem_de_mão;12246310814356;
-Informações - APP - Formas de Pagamento;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_formas_de_pagamento;12248328958356;
-Reclamação - Agência - Toten;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788;
-;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_toten;12251900155540;
-Informação - Documentos - Declaração de Conteúdo;Motivo - Encomendas;encomendas_informação_documentos;12398445283348;
-;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_declaração_de_conteúdo;12273844602516;
-Reclamação - Itinerário - Percurso;Motivo - Rodoviário;rodoviário_reclamação_itinerário;12398945520788;
-;Sub - Motivo - Reclamação - Itinerário - Rodoviário;sub_motivo_reclamação_itinerário_rod_percurso;12253857441684;
-Reclamação - Ônibus - Conservação;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_conservação;12252812163092;
-Reclamação - Site - Comunicação;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_comunicação;12254661429908;
-Reclamação - Benefícios - Programa Fidelidade;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_programa_fidelidade;12251763077396;
-Reclamação - APP - Erro na Compra;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_na_compra;12254905117844;
-Reclamação - Passagem - Erro de Estorno;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_erro_de_estorno;12253769506324;
-Reclamação - Operacional - Causas Imprevistas Internas;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788;
-;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_causas_imprevistas_internas;12253599088660;
-Reclamação - Passagem - Composição de Valores;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_composição_de_valores;12253769506324;
-Informação - Retirada - Retirada por Terceiros;Motivo - Encomendas;encomendas_informação_retirada;12398445283348;
-;Sub - Motivo - Informação - Retirada - Encomendas;sub_motivo_informacão_retirada_encom_retirada_por_terceiros;12274052753556;
-Informação - Passagem - Formas de Pagamento;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_formas_de_pagamento;12246362839188;
-Informação - Embarque - PCD;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788;
-;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_pcd;12246310814356;
-Informações - APP - Erro Código Cartão;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_erro_codigo_cartão;12248328958356;
-Reclamação - Ônibus - Conforto;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_conforto;12252812163092;
-Sugestão - Itinerário - Linha;Motivo - Rodoviário;rodoviário_sugestão_itinerário;12398945520788;
-;Sub - Motivo - Sugestão - Itinerário - Rodoviário;sub_motivo_sugestão_itinerário_rod_linha;12255890149396;
-Reclamação - Agência - Horário de Funcionamento;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788;
-;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_horário_de_funcionamento;12251900155540;
-Reclamação - Embarque - Bagagem;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_bagagem;12252091115796;
-Reclamação - Ônibus - Frota de Terceiros;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_frota_de_terceiros;12252812163092;
-Informação - Coleta - Cancelar;Motivo - Encomendas;encomendas_informação_coleta;12398445283348;
-;Sub - Motivo - Informação - Coleta - Encomendas;sub_motivo_informacão_coleta_encom_cancelar;12273633901076;
-Solicitação - Bagagem - Danificação de Bagagem;Motivo - Rodoviário;rodoviário_solicitação_bagagem;12398945520788;
-;Sub - Motivo - Solicitação - Bagagem - Rodoviário;sub_motivo_solicitação_bagagem_rod_danificação_de_bagagem;12273207766676;
-Antifraude - Análise de Cadastro - Dados Suspeitos;Motivo - Rodoviário;rodoviário_antifraude;12398945520788;
-;Sub - Motivo - Antifraude - Rodoviário;sub_motivo_antifraude_rod_dados_suspeitos;12273337240084;
-Reclamação - Ônibus - Banheiro;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_banheiro;12252812163092;
-Informação - Atendimento -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Informação - Benefício - Policial / Bombeiro;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_policial_bombeiro;12245897382804;
-Informação - Benefício - Viagem Família;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_viagem_família;12245897382804;
-Reclamação - Passagem - Remarcação;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_remarcação;12253769506324;
-Reclamação - Ônibus - Falha Mecânica;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_falha_mecânica;12252812163092;
-Informações - APP - Afinidade;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_afinidade;12248328958356;
-Reclamação - Programa Fidelidade - Não pontuou;Motivo - Rodoviário;rodoviário_reclamação_programa_fidelidade;12398945520788;
-;Sub - Motivo - Reclamação - Programa Fidelidade - Rodoviário;sub_motivo_reclamação_programa_fidelidade_rod_não_pontuou;12253797570452;
-Solicitação - LGPD - Exclusão de Dados;Motivo - LGPD;lgpd_solicitação_lgpd;12399916522900;
-;Sub - Motivo - Solicitação - LGPD ;sub_motivo_solicitação_lgpd_exclusão_de_dados;12275550268820;
-Informação - LGPD - Exclusão de Dados;Motivo - LGPD;lgpd_informação_lgpd;12399916522900;
-;Sub - Motivo - Informação - LGPD ;sub_motivo_informacão_lgpd_exclusão_de_dados;12275442664212;
-Informação - Programa Fidelidade - Bônus Fidelidade;Motivo - Rodoviário;rodoviário_informação_programa_fidelidade;12398945520788;
-;Sub - Motivo - Informação - Programa Fidelidade - Rodoviário;sub_motivo_informacão_programa_fidelidade_rod_bônus_fidelidade;12246421835796;
-Reclamação - Ônibus - Goteira;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_goteira;12252812163092;
-Elogio - Atendimento - Bilheteiro;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788;
-;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_bilheteiro;12254991202964;
-Reclamação - Atendimento - Auxiliar de Plataforma;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788;
-;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_auxiliar_de_plataforma;12251594549652;
-Reclamação - Site - Erro de Login;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_de_login;12254661429908;
-Reclamação - Rastreio - Chegada no Destino;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348;
-;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_chegou_no_destino;12273958889108;
-Reclamação - Benefícios - Vale Transporte;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_vale_transporte;12251763077396;
-Reclamação - Site - Inoperante;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_inoperante;12254661429908;
-Informação - Rastreio - Sem Atualização SSW;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348;
-;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_sem_atualização_ssw;12273951908756;
-Reclamação - Embarque - Valores;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_valores;12252091115796;
-Informações - Cadastro - Correntistas;Motivo - Encomendas;encomendas_informações_cadastro;12398445283348;
-;Sub - Motivo - Informação - Cadastro - Encomendas;sub_motivo_informacão_cadastro_encom_correntistas;12274307278100;
-Reclamação - Ônibus - Wifi;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_wifi;12252812163092;
-Informação - Frete - Formas de Pagamento;Motivo - Encomendas;encomendas_informação_frete;12398445283348;
-;Sub - Motivo - Informação - Frete - Encomendas;sub_motivo_informacão_frete_encom_formas_de_pagamento;12273754828564;
-Reclamação - Embarque - Achados e Perdidos;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_achados_e_perdidos;12252091115796;
-Reclamação - Embarque - Documentos;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_documentos;12252091115796;
-Sugestão - Operacional - Novos Horários;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788;
-;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_novos_horários;12273192263828;
-Elogio - Atendimento - CRC;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788;
-;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_crc;12254991202964;
-Sugestão - Embarque - Ponto de Parada;Motivo - Rodoviário;rodoviário_sugestão_embarque;12398945520788;
-;Sub - Motivo - Sugestão - Embarque - Rodoviário;sub_motivo_sugestão_embarque_rod_ponto_de_parada;12255719531156;
-Informação - Embarque -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Informação - Documentos - 2ª via NF;Motivo - Encomendas;encomendas_informação_documentos;12398445283348;
-;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_2_via_nf;12273844602516;
-Reclamação - Rastreio - Sem Atualização SSW;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348;
-;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_sem_atualização_ssw;12273958889108;
-Reclamação - Ônibus - Barulho;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_barulho;12252812163092;
-Reclamação - Ônibus - Cinto de Segurança;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_cinto_de_segurança;12252812163092;
-Sugestão - Ônibus - Serviços;Motivo - Rodoviário;rodoviário_sugestão_ônibus;12398945520788;
-;Sub - Motivo - Sugestão - Ônibus - Rodoviário;sub_motivo_sugestão_ônibus_rod_serviços;12255930839444;
-Pedido - Cotação - Análise de Desconto;Motivo - Encomendas;encomendas_pedido_cotação;12398445283348;
-;Sub - Motivo - Pedido - Cotação - Encomendas;sub_motivo_pedido_cotação_encom_análise_de_desconto;12274898207252;
-Informações - Gerais - Medidas do Bagageiro;Motivo - Encomendas;encomendas_informações_gerais;12398445283348;
-;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_medidas_do_bagageiro;12274550867092;
-Ligação Muda / Engano -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - APP - Erro de Estorno;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_de_estorno;12254905117844;
-Reclamação - Agência - Erro de Estorno;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788;
-;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_erro_de_estorno;12251900155540;
-Informações - Gerais - Limite de Peso por Volume;Motivo - Encomendas;encomendas_informações_gerais;12398445283348;
-;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_limite_de_peso_por_volume;12274550867092;
-Reclamação - Site - Erro de Cadastro;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_de_cadastro;12254661429908;
-Informação - Passagem - Declaração;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_declaração;12246362839188;
-Reclamação - Embarque - Animais;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_animais;12252091115796;
-Informação - Frete - Paga no Destino (FOB);Motivo - Encomendas;encomendas_informação_frete;12398445283348;
-;Sub - Motivo - Informação - Frete - Encomendas;sub_motivo_informacão_frete_encom_paga_no_destino_fob;12273754828564;
-Informação - Benefício - Programa Fidelidade Comerciante;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_programa_fidelidade_comerciante;12245897382804;
-Informação - Retirada - Documentos Necessários;Motivo - Encomendas;encomendas_informação_retirada;12398445283348;
-;Sub - Motivo - Informação - Retirada - Encomendas;sub_motivo_informacão_retirada_encom_documentos_necessários;12274052753556;
-Informação - Mercadoria - Extravio;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348;
-;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_extravio;12274987989652;
-Informação - LGPD - Utilização dos Dados Pessoais;Motivo - LGPD;lgpd_informação_lgpd;12399916522900;
-;Sub - Motivo - Informação - LGPD ;sub_motivo_informacão_lgpd_utilização_dos_dados_pessoais;12275442664212;
-Cliente Não Identificado -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Informação - Passagem - Seguro Facultativo;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788;
-;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_seguro_facultativo;12246362839188;
-Informação - Valores/fatura - Não recebeu Fatura;Motivo - Encomendas;encomendas_informação_valores;12398445283348;
-;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_não_recebeu_fatura;12275112194708;
-Reclamação - APP - Comunicação;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_comunicação;12254905117844;
-Reclamação - Ônibus - Água;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_água;12252812163092;
-Informação - Atendimento - Toten;Motivo - Rodoviário;rodoviário_informação_atendimento;12398945520788;
-;Sub - Motivo - Informação - Atendimento - Rodoviário;sub_motivo_informacão_atendimento_rod_toten;12226677237012;
-Sugestão - Itinerário - Percurso;Motivo - Rodoviário;rodoviário_sugestão_itinerário;12398945520788;
-;Sub - Motivo - Sugestão - Itinerário - Rodoviário;sub_motivo_sugestão_itinerário_rod_percurso;12255890149396;
-Informação - Operacional - Roubo/Furto;Motivo - Rodoviário;rodoviário_informação_operacional;12398945520788;
-;Sub - Motivo - Informação - Operacional - Rodoviário;sub_motivo_informacão_operacional_rod_roubo_furto;12248209756308;
-Elogio - Atendimento - Agência;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788;
-;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_agencia;12254991202964;
-Reclamação - Embarque - Menor de Idade;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_menor_de_idade;12252091115796;
-Informação - Documentos - 2ª via CTE;Motivo - Encomendas;encomendas_informação_documentos;12398445283348;
-;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_2_via_cte;12273844602516;
-Informações - Gerais - Se Tem Coleta;Motivo - Encomendas;encomendas_informações_gerais;12398445283348;
-;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_se_tem_coleta;12274550867092;
-Solicitação - Atendimento - Reserva – Programa Fidelidade;Motivo - Rodoviário;rodoviário_solicitação_atendimento;12398945520788;
-;Sub - Motivo - Solicitação - Atendimento - Rodoviário;sub_motivo_solicitação_atendimento_rod_reserva_programa_fidelidade;12273204012564;
-Informação - Operacional - Desvio de Itinerário;Motivo - Rodoviário;rodoviário_informação_operacional;12398945520788;
-;Sub - Motivo - Informação - Operacional - Rodoviário;sub_motivo_informacão_operacional_rod_desvio_de_itinerário;12248209756308;
-Informação - Coleta - Reagendar;Motivo - Encomendas;encomendas_informação_coleta;12398445283348;
-;Sub - Motivo - Informação - Coleta - Encomendas;sub_motivo_informacão_coleta_encom_reagendar;12273633901076;
-Informação - Valores/fatura - Tabela de Preços;Motivo - Encomendas;encomendas_informação_valores;12398445283348;
-;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_tabela_de_preços;12275112194708;
-Informações - APP - Status de Compra;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_status_da_compra;12248328958356;
-Informações - APP - Auxílio na Compra;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_auxílio_na_compra;12248328958356;
-Elogio - Ônibus - Serviços;Motivo - Rodoviário;rodoviário_elogio_ônibus;12398945520788;
-;Sub - Motivo - Elogio - Ônibus - Rodoviário;sub_motivo_elogio_ônibus_rod_serviços;12255236787092;
-Informações - Gerais - Tipo de Embalagem e se Fornece;Motivo - Encomendas;encomendas_informações_gerais;12398445283348;
-;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_tipo_de_embalagem_e_se_fornece;12274550867092;
-Informação - Valores/fatura - Cobrança Indevida;Motivo - Encomendas;encomendas_informação_valores;12398445283348;
-;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_cobrança_indevida;12275112194708;
-Informação - Ônibus - Acessibilidade - Deficiente Físico;Motivo - Rodoviário;rodoviário_informação_ônibus;12398945520788;
-;Sub - Motivo - Informação - Ônibus - Rodoviário;sub_motivo_informacão_ônibus_rod_acessibilidade__deficiente_físico;12248200205972;
-Reclamação - Benefícios - ID Jovem;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_idjovem;12251763077396;
-Reclamação - Site - Status de Compra / Konduto;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_status_de_compra;12254661429908;
-Informação - Mercadoria - Faltando Itens;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348;
-;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_faltando_itens;12274987989652;
-Reclamação - Operacional - Desvio de Itinerário;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788;
-;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_desvio_de_itinerario;12253599088660;
-Informações - APP - Programa Fidelidade;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_programa_fidelidade;12248328958356;
-Reclamação - APP - Inoperante;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_inoperante;12254905117844;
-Sugestão - Operacional - Alteração de Horário;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788;
-;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_alteração_de_horário;12273192263828;
-Reclamação - Site - Cartão de Embarque / QR Code;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_sub_motivo_reclamação_site_rod_cartão_embarque;12254661429908;
-Reclamação - Ônibus - Pneu furado;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_pneu_furado;12252812163092;
-Reclamação - Cobrança Indevida - Agência;Motivo - Rodoviário;rodoviário_reclamação_cobrança_indevida;12398945520788;
-;Sub - Motivo - Reclamação - Cobrança Indevida - Rodoviário;sub_motivo_reclamação_cobrança_indevida_rod_agência;12253898925972;
-Reclamação - Site - Voucher;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_voucher;12254661429908;
-Reclamação - Cobrança Indevida - Cartão de Débito;Motivo - Rodoviário;rodoviário_reclamação_cobrança_indevida;12398945520788;
-;Sub - Motivo - Reclamação - Cobrança Indevida - Rodoviário;sub_motivo_reclamação_cobrança_indevida_rod_cartão_de_débito;12253898925972;
-Informação - Valores/fatura - Valor Diferente do Combinado;Motivo - Encomendas;encomendas_informação_valores;12398445283348;
-;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_valor_diferente_do_combinado;12275112194708;
-Informação - Atendimento - Tempo Espera para Atendimento Balcão;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_tempo_espera_para_atendimento_balcão;12274177107604;
-Reclamação - Benefícios - Idoso 50%;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_idoso_50;12251763077396;
-Sugestão - Site - Funcionalidade;Motivo - Rodoviário;rodoviário_sugestão_site;12398945520788;
-;Sub - Motivo - Sugestão - Site - Rodoviário;sub_motivo_sugestão_site_rod_funcionalidade;12255996693780;
-Reclamação - Embarque - Plataforma de embarque / desembarque;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_plataforma_de_embarque_desembarque;12252091115796;
-Reclamação - Passagem - Transferência;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_transferência;12253769506324;
-Solicitação - Passagem - Declaração;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788;
-;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_declaração;12273286643220;
-Reclamação - APP - Erro de Cancelamento;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_de_cancelamento;12254905117844;
-Reclamação - Benefícios - Deficiente Físico;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_deficiente_físico;12251763077396;
-Informação - Entrega - Remarcar;Motivo - Encomendas;encomendas_informação_entrega;12398445283348;
-;Sub - Motivo - Informação - Entrega - Encomendas;sub_motivo_informacão_entrega_encom_remarcar;12273689467668;
-Reclamação - Programa Fidelidade - Emissão de Bônus;Motivo - Rodoviário;rodoviário_reclamação_programa_fidelidade;12398945520788;
-;Sub - Motivo - Reclamação - Programa Fidelidade - Rodoviário;sub_motivo_reclamação_programa_fidelidade_rod_emissão_de_bônus;12253797570452;
-Sugestão - Ônibus - Categoria do Veículo;Motivo - Rodoviário;rodoviário_sugestão_ônibus;12398945520788;
-;Sub - Motivo - Sugestão - Ônibus - Rodoviário;sub_motivo_sugestão_ônibus_rod_categoria_do_veículo;12255930839444;
-Antifraude - Status de Compra;Motivo - Rodoviário;rodoviário_antifraude;12398945520788;
-;Sub - Motivo - Antifraude - Rodoviário;sub_motivo_antifraude_rod_status_de_compra;12273337240084;
-Compliance - Compliance;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - Atendimento - Fiscal;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788;
-;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_fiscal;12251594549652;
-Elogio - Ônibus - Frota;Motivo - Rodoviário;rodoviário_elogio_ônibus;12398945520788;
-;Sub - Motivo - Elogio - Ônibus - Rodoviário;sub_motivo_elogio_ônibus_rod_frota;12255236787092;
-Reclamação - Site - Não gerou voucher;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_não_gerou_voucher;12254661429908;
-Reclamação - Operacional - Roubo/Furto;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788;
-;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_roubo_furto;12253599088660;
-Solicitação - Passagem - 2ª Via de Bilhete;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788;
-;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_2_via_de_bilhete;12273286643220;
-Elogio - Benefícios - Programa Fidelidade;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - Ônibus - Cobertor;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_cobertor;12252812163092;
-Informação - Mercadoria - Mercadoria Trocada;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348;
-;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_mercadoria_trocada;12274987989652;
-Informações - Site -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Solicitação - Embarque - Achados e Perdidos;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Informações - Gerais - Tabela de Valores;Motivo - Encomendas;encomendas_informações_gerais;12398445283348;
-;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_tabela_de_valores;12274550867092;
-Reclamação - Atendimento - Endereço/Telefone Balcão;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348;
-;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_endereço_telefone_balcão;12274254405268;
-Reclamação - Ônibus - Tomadas / USB;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_tomadas_usb;12252812163092;
-Informação - Atendimento - Agenciador;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_agenciador;12274177107604;
-Informações - Cadastro - Alteração de Dados;Motivo - Encomendas;encomendas_informações_cadastro;12398445283348;
-;Sub - Motivo - Informação - Cadastro - Encomendas;sub_motivo_informacão_cadastro_encom_alteração_de_dados;12274307278100;
-Reclamação - Rastreio - Prazo de Chegada;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348;
-;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_prazo_chegada;12273958889108;
-Reclamação - Agência - Cobrança Indevida;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788;
-;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_cobrança_indevida;12251900155540;
-Reclamação - Agência - Comunicação Visual;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788;
-;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_comunicação_visual;12251900155540;
-Reclamação - Embarque - Remarcação / Transferência;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;Não Possui;12252091115796;
-Informação - Frete - Paga na Origem (CIF);Motivo - Encomendas;encomendas_informação_frete;12398445283348;
-;Sub - Motivo - Informação - Frete - Encomendas;sub_motivo_informacão_frete_encom_paga_na_origem_cif;12273754828564;
-Solicitação - Passagem - Transferência - Bônus Fidelidade;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788;
-;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_transferência;12273286643220;
-;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_bônus_fidelidade;12273286643220;
-Sugestão - Operacional - Frota;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788;
-;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_frota;12273192263828;
-Reclamação - Embarque - Afinidade;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_afinidade;12252091115796;
-Informação - Atendimento - Coletor;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_coletor;12274177107604;
-Reclamação - Passagem - Seguro Facultativo;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_seguro_facultativo;12253769506324;
-Sugestão - Benefícios - Gratuidades;Motivo - Rodoviário;rodoviário_sugestão_beneficios;12398945520788;
-;Sub - Motivo - Sugestão - Beneficios - Rodoviário;sub_motivo_sugestão_benefícios_rod_gratuidades;12255414948244;
-Informações - Gerais - Se Tem Entrega;Motivo - Encomendas;encomendas_informações_gerais;12398445283348;
-;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_se_tem_entrega;12274550867092;
-Reclamação - Mercadoria - Extravio;Motivo - Encomendas;encomendas_reclamação_mercadoria;12398445283348;
-;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;12275127831828;
-Reclamação - APP - Erro de Cadastro;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_de_cadastro;12254905117844;
-Reclamação - Site - Reserva – Programa Fidelidade;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_reserva_programa_fidelidade;12254661429908;
-Elogio - Site - Funcionalidade;Motivo - Rodoviário;rodoviário_elogio_site;12398945520788;
-;Sub - Motivo - Elogio - Site - Rodoviário;sub_motivo_elogio_site_rod_funcionalidade;12255236117780;
-Pedido - Cotação - Venda;Motivo - Encomendas;encomendas_pedido_cotação;12398445283348;
-;Sub - Motivo - Pedido - Cotação - Encomendas;sub_motivo_pedido_cotação_encom_venda;12274898207252;
-Informação - Valores/fatura - Vencimento da Fatura;Motivo - Encomendas;encomendas_informação_valores;12398445283348;
-;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_vencimento_da_fatura;12275112194708;
-Reclamação - Passagem - 2ª Via de Bilhete;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_2_via_de_bilhete;12253769506324;
-Reclamação - Itinerário - Seção;Motivo - Rodoviário;rodoviário_reclamação_itinerário;12398945520788;
-;Sub - Motivo - Reclamação - Itinerário - Rodoviário;sub_motivo_reclamação_itinerário_rod_secção;12253857441684;
-Sugestão - Operacional - Novas Linhas;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788;
-;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_novas_linhas;12273192263828;
-Informação - Cancelamento - Reserva – Programa Fidelidade;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Informação - Documentos - Fatura;Motivo - Encomendas;encomendas_informação_documentos;12398445283348;
-;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_fatura;12273844602516;
-Informação - Documentos - 2ª Via de Boleto;Motivo - Encomendas;encomendas_informação_documentos;12398445283348;
-;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_2_via_boleto;12273844602516;
-Sugestão - Site - Comunicação;Motivo - Rodoviário;rodoviário_sugestão_site;12398945520788;
-;Sub - Motivo - Sugestão - Site - Rodoviário;sub_motivo_sugestão_site_rod_comunicação;12255996693780;
-Sugestão - Embarque - Valores;Motivo - Rodoviário;rodoviário_sugestão_embarque;12398945520788;
-;Sub - Motivo - Sugestão - Embarque - Rodoviário;sub_motivo_sugestão_embarque_rod_valores;12255719531156;
-Informação - Mercadoria - Mercadoria Avariada;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348;
-;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_mercadoria_avariada;12274987989652;
-Reclamação - Atendimento - Agenciador;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788;
-;Sub - Motivo - Reclamação - Atendimento - Rodoviário;Não Possui;12251594549652;
-Reclamação - Site - Cupom;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_cupom;12254661429908;
-Reclamação - Ônibus - Kit Lanche;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_kit_lanche;12252812163092;
-Informação - Benefício -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Sugestão - Benefícios - Programa Fidelidade;Motivo - Rodoviário;rodoviário_sugestão_beneficios;12398945520788;
-;Sub - Motivo - Sugestão - Beneficios - Rodoviário;sub_motivo_sugestão_benefícios_rod_programa_fidelidade;12255414948244;
-Sugestão - Operacional - Itinerários;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788;
-;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_itinerários;12273192263828;
-Elogio - Atendimento - Auxiliar de Plataforma;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788;
-;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_auxiliar_de_plataforma;12254991202964;
-Reclamação - Coleta/Entrega - Atraso;Motivo - Encomendas;encomendas_reclamação_coleta_entrega;12398445283348;
-;Sub - Motivo - Reclamação - Coleta/Entrega - Encomendas;sub_motivo_reclamação_coleta_entrega_encom_atraso;12275179832852;
-Reclamação - Passagem - Descrição;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_descrição;12253769506324;
-Informações - APP - Inoperante;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_inoperante;12248328958356;
-Informação - Passagem -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - Embarque - Bagagem de Mão;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_bagagem_de_mão;12252091115796;
-Venda - Fretamento Turismo;Motivo - Encomendas;encomendas_vendas;12398445283348;
-;Sub - Motivo - Venda - Encomendas;Não Possui;12275241775764;
-Reclamação - APP - Erro de Login;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_de_login;12254905117844;
-Solicitação - Cadastro - Eventual;Motivo - Encomendas;encomendas_solicitação_cadastro;12398445283348;
-;Sub - Motivo - Solicitação - Cadastro - Encomendas;sub_motivo_solicitação_cadastro_encom_eventual;12274891865236;
-Reclamação - Coleta - Confirmação;Motivo - Encomendas;encomendas_reclamação_coleta;12398445283348;
-;Sub - Motivo - Reclamação - Coleta - Encomendas;sub_motivo_reclamação_coleta_encom_confirmação;12273708782228;
-Reclamação - Embarque - Terminal Rodoviário;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_terminal_rodoviário;12252091115796;
-Reclamação - Agência - Limpeza;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788;
-;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_limpeza;12251900155540;
-Reclamação - APP - Status de Compra / Konduto;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;Não Possui;12254905117844;
-Venda -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Informação - Atendimento - Tempo Espera para Atendimento CRC;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_tempo_espera_para_atendimento_crc;12274177107604;
-Reclamação - Ônibus - Pane Seca;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_pane_seca;12252812163092;
-Reclamação - Atendimento - Central de Relacionamento;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348;
-;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_central_de_relacionamento;12274254405268;
-Reclamação - Entrega - Confirmação;Motivo - Encomendas;encomendas_reclamação_entrega;12398445283348;
-;Sub - Motivo - Reclamação - Entrega - Encomendas;sub_motivo_reclamação_entrega_encom_confirmação;12273715614612;
-Reclamação - Coleta/Entrega - Não Realizada;Motivo - Encomendas;encomendas_reclamação_coleta_entrega;12398445283348;
-;Sub - Motivo - Reclamação - Coleta/Entrega - Encomendas;sub_motivo_reclamação_coleta_entrega_encom_não_realizada;12275179832852;
-Reclamação - Rastreio - Embarcada/Postada;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348;
-;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_embarcada_postada;12273958889108;
-Reclamação - Site - Antifraude;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_anti_fraude;12254661429908;
-Reclamação - Agência - Erro na Compra;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788;
-;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_erro_na_compra;12251900155540;
-Reclamação - Ônibus - Ar – Condicionado;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_ar_condicionado;12252812163092;
-Elogio - Site - Comunicação;Motivo - Rodoviário;rodoviário_elogio_site;12398945520788;
-;Sub - Motivo - Elogio - Site - Rodoviário;sub_motivo_elogio_site_rod_comunicação;12255236117780;
-Fretamento - Informação - Turismo;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - Benefícios - Afinidade;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_afinidade;12251763077396;
-Reclamação - Embarque - Trevo;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788;
-;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_trevo;12252091115796;
-Reclamação - Mercadoria - Faltando Itens;Motivo - Encomendas;encomendas_reclamação_mercadoria;12398445283348;
-;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;sub_motivo_reclamação_mercadoria_encom_faltando_itens;12275127831828;
-Reclamação - Atendimento - Tempo Espera para Atendimento Balcão;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348;
-;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_tempo_espera_para_atendimento_balcão;12274254405268;
-Informação - Mercadoria - Embalagem Violada;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348;
-;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_embalagem_violada;12274987989652;
-Reclamação - Site - Status de Compra;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788;
-;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_status_de_compra;12254661429908;
-Informações - APP - Cupom;Motivo - Rodoviário;rodoviário_informação_app;12398945520788;
-;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_cupom;12248328958356;
-Informação - Itinerário -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Elogio - Benefícios - Instituições;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Venda - Fretamento Contínuo;Motivo - Encomendas;encomendas_vendas;12398445283348;
-;Sub - Motivo - Venda - Encomendas;Não Possui;12275241775764;
-Sugestão - Benefícios - Descontos;Motivo - Rodoviário;rodoviário_sugestão_beneficios;12398945520788;
-;Sub - Motivo - Sugestão - Beneficios - Rodoviário;sub_motivo_sugestão_benefícios_rod_descontos;12255414948244;
-Solicitação - Cancelamento - Reserva – Programa Fidelidade;Motivo - Rodoviário;rodoviário_solicitação_cancelamento;12398945520788;
-;Sub - Motivo - Solicitação - Cancelamento - Rodoviário;sub_motivo_solicitação_cancelamento_rod_reserva_programa_fidelidade;12273197974676;
-Sugestão - Benefícios - Instituições;Motivo - Rodoviário;rodoviário_sugestão_beneficios;12398945520788;
-;Sub - Motivo - Sugestão - Beneficios - Rodoviário;sub_motivo_sugestão_benefícios_rod_instituições;12255414948244;
-Reclamação - Atendimento - Cidades Atendidas;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348;
-;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_cidades_atendidas;12274254405268;
-Informação - Atendimento - Agente CRC;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348;
-;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_agente_crc;12274177107604;
-Reclamação - LGPD - Utilização dos Dados Pessoais;Motivo - LGPD;lgpd_reclamação_lgpd;12399916522900;
-;Sub - Motivo - Reclamação - LGPD ;sub_motivo_reclamação_lgpd_utilização_dos_dados_pessoais;12275544894484;
-Informação - LGPD - Bloqueio de Dados;Motivo - LGPD;lgpd_informação_lgpd;12399916522900;
-;Sub - Motivo - Informação - LGPD ;sub_motivo_informacão_lgpd_bloqueio_de_dados;12275442664212;
-Reclamação - Coleta - Agendamento;Motivo - Encomendas;encomendas_reclamação_coleta;12398445283348;
-;Sub - Motivo - Reclamação - Coleta - Encomendas;sub_motivo_reclamação_coleta_encom_agendamento;12273708782228;
-Reclamações - Cadastro - Eventual;Motivo - Encomendas;encomendas_reclamações_cadastro;12398445283348;
-;Sub - Motivo - Reclamações - Cadastro - Encomendas;sub_motivo_reclamacão_cadastro_encom_eventual;12274317222676;
-Reclamação - Mercadoria - Embalagem Violada;Motivo - Encomendas;encomendas_reclamação_mercadoria;12398445283348;
-;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;sub_motivo_reclamação_mercadoria_encom_embalagem_violada;12275127831828;
-Reclamação - Benefícios - Policial / Bombeiro;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_policial_bombeiro;12251763077396;
-Informação - Programa Fidelidade - Canais de Compra;Motivo - Rodoviário;rodoviário_informação_programa_fidelidade;12398945520788;
-;Sub - Motivo - Informação - Programa Fidelidade - Rodoviário;sub_motivo_informacão_programa_fidelidade_rod_canais_de_compra;12246421835796;
-Reclamação - Frete - Pagamento no Destino (FOB);Motivo - Encomendas;encomendas_reclamação_frete;12398445283348;
-;Sub - Motivo - Reclamação - Frete - Encomendas;sub_motivo_reclamação_frete_encom_pagamento_no_destino_fob;12273768755476;
-Reclamação - Ônibus - Acessibilidade - Deficiente Físico;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_acessibilidade_deficiente_físico;12252812163092;
-Solicitação - Atendimento -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - Site -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - Motorista -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Elogio - Atendimento - Fiscal;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788;
-;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_fiscal;12254991202964;
-Reclamação - Benefícios - Programa Fidelidade Comerciante;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788;
-;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_programa_fidelidade_e_comerciante;12251763077396;
-Solicitação - Documentos - 2ª via NF;Motivo - Encomendas;encomendas_solicitação_documentos;12398445283348;
-;Sub - Motivo - Solicitação - Documentos - Encomendas;sub_motivo_solicitação_documentos_encom_2_via_nf;12274795938580;
-Reclamação - Mercadoria - Mercadoria Avariada;Motivo - Encomendas;encomendas_reclamação_mercadoria;12398445283348;
-;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;sub_motivo_reclamação_mercadoria_encom_mercadoria_avariada;12275127831828;
-Reclamação - Rastreio - Confirmação de Retirada;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348;
-;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_confirmar_retirada;12273958889108;
-Reclamações - Gerais - Produtos não Transportados;Motivo - Encomendas;encomendas_reclamações_gerais;12398445283348;
-;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_produtos_não_transportados;12274571184276;
-Reclamação - Documentos - Envio Sem NF;Motivo - Encomendas;encomendas_reclamação_documentos;12398445283348;
-;Sub - Motivo - Reclamação - Documentos - Encomendas;sub_motivo_reclamação_documentos_encom_envio_sem_nf;12273856411668;
-Reclamação - Cotação - Valores;Motivo - Encomendas;encomendas_reclamação_cotação;12398445283348;
-;Sub - Motivo - Reclamação - Cotação - Encomendas;sub_motivo_reclamação_cotação_encom_valores;12274930930452;
-Elogio - Agenciador;Motivo - Encomendas;encomendas_elogio;12398445283348;
-;Sub - Motivo - Elogio - Encomendas;sub_motivo_elogio_encom_agenciador;12275348073364;
-Informações - Cadastro - Prazo de Cadastro;Motivo - Encomendas;encomendas_informações_cadastro;12398445283348;
-;Sub - Motivo - Informação - Cadastro - Encomendas;sub_motivo_informacão_cadastro_encom_prazo_de_cadastro;12274307278100;
-Solicitação - Atendimento - Viagem PCD;Motivo - Rodoviário;rodoviário_solicitação_atendimento;12398945520788;
-;Sub - Motivo - Solicitação - Atendimento - Rodoviário;sub_motivo_solicitação_atendimento_rod_viagem_pcd;12273204012564;
-Antifraude - Cancelamento;Motivo - Rodoviário;rodoviário_antifraude;12398945520788;
-;Sub - Motivo - Antifraude - Rodoviário;sub_motivo_antifraude_rod_cancelamento;12273337240084;
-Elogio - Agente CRC;Motivo - Encomendas;encomendas_elogio;12398445283348;
-;Sub - Motivo - Elogio - Encomendas;sub_motivo_elogio_encom_agente_crc;12275348073364;
-Reclamação - Valores/Fatura - Cobrança Indevida;Motivo - Encomendas;encomendas_reclamação_valores;12398445283348;
-;Sub - Motivo - Reclamação - Valores/fatura - Encomendas;sub_motivo_reclamação_valores_coleta_encom_cobrança_indevida;12275140763796;
-Informação - Benefício - Lide / Empresarial;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_lide_empresarial;12245897382804;
-Reclamação - Passagem - Troca de portador;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788;
-;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_troca_de_portador;12253769506324;
-Reclamação - Embarque -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Fretamento - Informação - Contínuo;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Fretamento - Turismo -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Solicitação - Embarque - Extravio de Bagagem;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Call Back -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - Operacional -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Solicitação - Cancelamento -;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - APP - Reserva – Programa Fidelidade;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788;
-;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_reserva_programa_fidelidade;12254905117844;
-Elogio - Benefícios - Viagem Família;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Sugestão - Itinerário - Seção;Motivo - Rodoviário;rodoviário_sugestão_itinerário;12398945520788;
-;Sub - Motivo - Sugestão - Itinerário - Rodoviário;sub_motivo_sugestão_itinerário_rod_seção;12255890149396;
-Informação - Atendimento - PCD;Não Possui;Não Possui;Não Possui;
-;Não Possui;Não Possui;Não Possui;
-Reclamação - Ônibus - Filmes;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_filmes;12252812163092;
-Solicitação - LGPD - Bloqueio de Dados;Motivo - LGPD;lgpd_solicitação_lgpd;12399916522900;
-;Sub - Motivo - Solicitação - LGPD ;sub_motivo_solicitação_lgpd_bloqueio_de_dados;12275550268820;
-Reclamações - Gerais - Medidas do Bagageiro;Motivo - Encomendas;encomendas_reclamações_gerais;12398445283348;
-;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_medidas_do_bagageiro;12274571184276;
-Reclamação - Frete - Formas de Pagamento;Motivo - Encomendas;encomendas_reclamação_frete;12398445283348;
-;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_formas_de_pagamento;12274571184276;
-Reclamações - Gerais - Limite de Peso por Volume;Motivo - Encomendas;encomendas_reclamações_gerais;12398445283348;
-;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_limite_de_peso_por_volume;12274571184276;
-Reclamação - Coleta/Entrega - Manuseio;Motivo - Encomendas;encomendas_reclamação_coleta_entrega;12398445283348;
-;Sub - Motivo - Reclamação - Coleta/Entrega - Encomendas;sub_motivo_reclamação_coleta_entrega_encom_manuseio;12275179832852;
-Reclamação - Retirada - Retirada por Terceiros;Motivo - Encomendas;encomendas_reclamação_retirada;12398445283348;
-;Sub - Motivo - Reclamação - Retirada - Encomendas;sub_motivo_reclamação_retirada_encom_retirada_por_terceiros;12274054982164;
-Reclamação - Entrega - Remarcação;Motivo - Encomendas;encomendas_reclamação_entrega;12398445283348;
-;Sub - Motivo - Reclamação - Entrega - Encomendas;sub_motivo_reclamação_entrega_encom_remarcação;12273715614612;
-Reclamação - LGPD - Atualização de Dados Não Efetuada;Motivo - LGPD;lgpd_reclamação_lgpd;12399916522900;
-;Sub - Motivo - Reclamação - LGPD;sub_motivo_reclamação_lgpd_atualização_de_dados_não_efetuada;12275544894484;
-Reclamações - Cadastro - Correntistas;Motivo - Encomendas;encomendas_reclamações_cadastro;12398445283348;
-;Sub - Motivo - Reclamações - Cadastro - Encomendas;sub_motivo_reclamacão_cadastro_encom_correntistas;12274317222676;
-Reclamação - Valores/Fatura - Não recebeu Fatura;Motivo - Encomendas;encomendas_reclamação_valores;12398445283348;
-;Sub - Motivo - Reclamação - Valores/fatura - Encomendas;sub_motivo_reclamação_valores_coleta_encom_não_recebeu_fatura;12275140763796;
-Reclamação - Atendimento - Dias e Horários do Balcão;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348;
-;Sub - Motivo - Reclamação - Atendimento - Encomendas;sub_motivo_reclamação_atendimento_encom_dias_e_horários_do_balcão;12274254405268;
-Solicitação - Operacional - Extravio de Bagagem;Motivo - Rodoviário;Não Possui;12398945520788;
-;Sub - Motivo - Solicitação - Operacional - Rodoviário;sub_motivo_solicitação_operacional_rod_extravio_de_bagagem;12284668309780;
-Reclamação - Cotação - Efetivada;Motivo - Rodoviário;encomendas_reclamação_cotação;12398945520788;
-;Sub - Motivo - Reclamação - Cotação - Encomendas;sub_motivo_reclamação_cotação_encom_efetivada;12274930930452;
-Informação - Benefício - Advogado (Caasp/OAB);Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788;
-;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_advogado;12245897382804;
-Solicitação - Passagem - Cancelamento;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788;
-;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_cancelamento;12273286643220;
-Informação - Documentos - Animais;Motivo - Encomendas;encomendas_informação_documentos;12398445283348;
-;Sub - Motivo - Informação - Documentos - Encomendas;Não Possui;12273844602516;
-Reclamações - Gerais - Prazos Estimado de Entrega;Motivo - Encomendas;encomendas_reclamações_gerais;12398445283348;
-;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_prazos_estimados_de_entrega;12274571184276;
-Reclamação - Valores/Fatura - Valor Diferente do Combinado;Motivo - Encomendas;encomendas_reclamação_valores;12398445283348;
-;Sub - Motivo - Reclamação - Valores/fatura - Encomendas;sub_motivo_reclamação_valores_coleta_encom_valor_diferente_do_combinado;12275140763796;
-Reclamação - Ônibus - Travesseiro;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788;
-;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_travesseiro;12252812163092;
-Reclamação - Agência - Estrutura / Conforto;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788;
-;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_estrutura_conforto;12251900155540;
-Reclamação - Coleta - Reagendamento;Motivo - Encomendas;encomendas_reclamação_coleta;12398445283348;
-;Sub - Motivo - Reclamação - Coleta - Encomendas;sub_motivo_reclamação_coleta_encom_reagendamento;12273708782228;
-Reclamação - Atendimento - Agente CRC;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348;
-;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_agente_crc;12274254405268;
+﻿subject;reason_subreason;tag;field_id
+;Motivo - Rodoviário - Retroativo Salesforce;rodoviário_retroativo_salesforce;12398945520788    
+;Motivo - LGPD - Retroativo Salesforce;lgpd_retroativo_salesforce;12399916522900    
+;Motivo - Encomendas - Retroativo Salesforce;encomendas_retroativo_salesforce;12398445283348    
+Informação - Embarque - Horário;Motivo – Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_horário;12246310814356    
+Ligação Muda / Engano - Ligação Muda / Engano;Motivo – Rodoviário;rodoviário_ligação;12398945520788    
+;Sub - Motivo - Ligação- Rodoviário;sub_motivo_ligação_rod_muda;12273335133716    
+Call Back - Call Back;Motivo – Rodoviário;rodoviário_call_back;12398945520788    
+;Sub - Motivo - Call Back - Rodoviário;sub_motivo_call_back_rod_call_back;12273281139860    
+Solicitação - Atendimento - Chamado Pendente;Motivo – Rodoviário;rodoviário_solicitação_atendimento;12398945520788    
+;Sub - Motivo - Solicitação - Atendimento - Rodoviário;sub_motivo_solicitação_atendimento_rod_chamado_pendente;12273204012564    
+Informação - Passagem - Remarcação / Transferência;Motivo – Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_remarcação_/_transferência;12246362839188    
+Informação - Passagem - Compra;Motivo – Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_compra;12246362839188    
+Venda - Passagem;Motivo - Rodoviário;rodoviário_vendas;12398945520788    
+;Sub - Motivo - Vendas - Rodoviário;sub_motivo_vendas_rod_passagem;12273232626196    
+Informação - Cancelamento - Passagem;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Solicitação - Cancelamento - Rodoviário;sub_motivo_solicitação_cancelamento_rod_passagem;12273197974676    
+Cliente Não Identificado - Cliente Não identificado;Motivo - Rodoviário;rodoviário_cliente_não_identificado;12398945520788    
+;Sub - Motivo - Cliente não identificado - Rodoviário;sub_motivo_cliente_não_identificado_rod_cliente_não_identificado;12273282944276    
+Informação - Itinerário - Linha;Motivo - Rodoviário;rodoviário_informação_itinerário;12398945520788    
+;Sub - Motivo - Informação - Itinerário - Rodoviário;sub_motivo_informacão_itinerário_rod_linha;12247431719828    
+Informação - Atendimento - Encomendas;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Informação - Embarque - Terminal Rodoviário;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_terminal_rodoviário;12246310814356    
+Informação - Operacional - Causas Imprevistas Externas;Motivo - Rodoviário;rodoviário_informação_operacional;12398945520788    
+;Sub - Motivo - Informação - Operacional - Rodoviário;sub_motivo_informacão_operacional_rod_causas_imprevistas_externas;12248209756308    
+Informação - Benefício - Idoso 100%;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_idoso_100;12245897382804    
+Informação - Benefício - Estudante;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_estudante;12245897382804    
+Informação - Atendimento - Sac;Motivo - Rodoviário;rodoviário_informação_atendimento;12398945520788    
+;Sub - Motivo - Informação - Atendimento - Rodoviário;sub_motivo_informacão_atendimento_rod_sac;12226677237012    
+Informação - Embarque - Valores;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_valores;12246310814356    
+Informação - Atendimento - Agência;Motivo - Rodoviário;rodoviário_informação_atendimento;12398945520788    
+;Sub - Motivo - Informação - Atendimento - Rodoviário;sub_motivo_informacão_atendimento_rod_agência;12226677237012    
+Informação - Embarque - Menor de Idade;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_menor_de_idade;12246310814356    
+Solicitação - Cancelamento - Passagem;Motivo - Rodoviário;rodoviário_solicitação_cancelamento;12398945520788    
+;Sub - Motivo - Solicitação - Cancelamento - Rodoviário;sub_motivo_solicitação_cancelamento_rod_passagem;12273197974676    
+Informações - Site - Status de Compra / Konduto;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_status_de_compra;12247903864468    
+Informação - Embarque - Achados e Perdidos;Motivo - Rodoviário;rodoviário_informação_embarque;12246310814356    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_achados_e_perdidos;12246310814356    
+Informação - Embarque - Ponto de Parada;Motivo - Rodoviário;rodoviário_informação_embarque;12246310814356    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_ponto_de_parada;12246310814356    
+Informação - Coleta - Agendar;Motivo - Encomendas;encomendas_informação_coleta;12398445283348    
+;Sub - Motivo - Informação - Coleta - Encomendas;sub_motivo_informacão_coleta_encom_agendar;12273633901076    
+Informação - Benefício - Vale Transporte;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_vale_transporte;12245897382804    
+Informação - Embarque - Documentos;Motivo - Rodoviário;rodoviário_informação_embarque;12246310814356    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_documentos;12246310814356    
+Informação - Embarque - Animais;Motivo - Rodoviário;rodoviário_informação_embarque;12246310814356    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_animais;12246310814356    
+Informação - Atendimento - Matriz;Motivo - Rodoviário;rodoviário_informação_atendimento;12398945520788    
+;Sub - Motivo - Informação - Atendimento - Rodoviário;sub_motivo_informacão_atendimento_rod_matriz;12226677237012    
+Informação - Passagem - Remarcação;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_remarcação;12246362839188    
+Informação - Passagem - Status de Compra;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_status_de_compra;12246362839188    
+Informação - Ônibus - Serviços;Motivo - Rodoviário;rodoviário_informação_ônibus;12398945520788    
+;Sub - Motivo - Informação - Ônibus - Rodoviário;sub_motivo_informacão_ônibus_rod_serviços;12248200205972    
+Informação - Passagem - Descrição;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_descrição;12246362839188    
+Informação - Itinerário - Percurso;Motivo - Rodoviário;rodoviário_informação_itinerário;12398945520788    
+;Sub - Motivo - Informação - Itinerário - Rodoviário;sub_motivo_informacão_itinerário_rod_percurso;12247431719828    
+Informação - Passagem - Transferência;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_transferência;12246362839188    
+Informação - Embarque - Bagagem;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_bagagem;12246310814356    
+Solicitação - Bagagem - Achados e Perdidos;Motivo - Rodoviário;rodoviário_solicitação_bagagem;12398945520788    
+;Sub - Motivo - Solicitação - Bagagem - Rodoviário;sub_motivo_solicitação_bagagem_rod_achados_e_perdidos;12273207766676    
+Pedido - Cotação - Orçamento;Motivo - Encomendas;encomendas_pedido_cotação;12398445283348    
+;Sub - Motivo - Pedido - Cotação - Encomendas;sub_motivo_pedido_cotação_encom_orçamento;12274898207252    
+Informações - Site - Erro Código Cartão;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_site_rod_erro_codigo_cartão;12247903864468    
+Informações - Site - Auxílio de Login;Motivo - Encomendas;encomendas_informações_site;12398445283348    
+;Sub - Motivo - Informações - Site - Encomendas;sub_motivo_informacão_site_encom_auxílio_de_login;12274128582292    
+Informações - Site - Auxílio de Cadastro;Motivo - Encomendas;encomendas_informações_site;12398445283348    
+;Sub - Motivo - Informações - Site - Encomendas;sub_motivo_informacão_site_encom_auxílio_de_login;12274128582292    
+Informação - Atendimento - Endereço/Telefone Balcão;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_endereço_telefone_balcão;12274177107604    
+Informações - Site - Voucher;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_voucher;12247903864468    
+Informação - Benefício - ID Jovem;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_idjovem;12245897382804    
+Informações - Site - Status de Compra;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_site_rod_status_de_compra;12247903864468    
+Informação - Rastreio - Chegou no Destino;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348    
+;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_chegou_no_destino;12273951908756    
+Reclamação - Site - Cobrança Indevida;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_cobrança_indevida;12254661429908    
+Ligação - Muda;Motivo - Encomendas;encomendas_ligação;12398445283348    
+;Sub - Motivo - Ligação- Encomendas;sub_motivo_ligação_rod_muda_enc;12693923104020    
+Consulta - Caso via Bot;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Informação - Benefício - Programa Fidelidade;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_programa_fidelidade;12245897382804    
+Informações - Site - Cartão de Embarque / QR Code;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_cartão_embarque;12247903864468    
+Informação - Benefício - Deficiente Físico;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_deficiente_físico;12245897382804    
+Ligação - Queda;Motivo - Encomendas;encomendas_ligação;12398445283348    
+;Sub - Motivo - Ligação- Encomendas;sub_motivo_ligação_rod_queda_enc;12693923104020    
+Reclamação - Passagem - Cancelamento;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_cancelamento;12253769506324    
+Informação - Rastreio - Prazo Chegada;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348    
+;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_prazo_chegada;12273951908756    
+Informação - Operacional - Causas Imprevistas Internas;Motivo - Rodoviário;rodoviário_informação_operacional;12398945520788    
+;Sub - Motivo - Informação - Operacional - Rodoviário;sub_motivo_informacão_operacional_rod_causas_imprevistas_internas;12248209756308    
+Informações - Site - Formas de Pagamento;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_formas_de_pagamento;12247903864468    
+Informação - Atendimento - Cidades Atendidas;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_cidades_atendidas;12274177107604    
+Informação - Ônibus - Frota;Motivo - Rodoviário;rodoviário_informação_ônibus;12398945520788    
+;Sub - Motivo - Informação - Ônibus - Rodoviário;sub_motivo_informacão_ônibus_rod_frota;12248200205972    
+Informações - Site - Parceiros;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_parceiros;12247903864468    
+Informação - Itinerário - Ponto de Parada;Motivo - Rodoviário;rodoviário_informação_itinerário;12398945520788    
+;Sub - Motivo - Informação - Itinerário - Rodoviário;sub_motivo_informacão_itinerário_rod_ponto_de_parada;12247431719828    
+Informações - Site - Afinidade;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_afinidade;12247903864468    
+Informação - Benefício - Idoso 50%;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_idoso_50;12245897382804    
+Reclamação - Embarque - Horário;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_horário;12252091115796    
+Solicitação - Passagem - Transferência;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788    
+;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_transferência;12273286643220    
+Reclamação - Cobrança Indevida - Pix;Motivo - Rodoviário;rodoviário_reclamação_cobrança_indevida;12398945520788    
+;Sub - Motivo - Reclamação - Cobrança Indevida - Rodoviário;sub_motivo_reclamação_cobrança_indevida_rod_pix;12253898925972    
+Ligação - Engano;Motivo - Encomendas;encomendas_ligação;12398445283348    
+;Sub - Motivo - Ligação- Encomendas;sub_motivo_ligação_rod_engano_enc;12693923104020    
+Informação - Passagem - Composição de Valores;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_composição_de_valores;12246362839188    
+Reclamação - Atendimento - Bilheteiro;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788    
+;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_bilheteiro;12251594549652    
+Informações - Site - Inoperante;Motivo - Encomendas;encomendas_informações_site;12398445283348    
+;Sub - Motivo - Informações - Site - Encomendas;sub_motivo_informacão_site_encom_inoperante;12274128582292    
+Reclamação - Site - Erro de Estorno;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_de_estorno;12254661429908    
+Solicitação - Bagagem - Extravio de Bagagem;Motivo - Rodoviário;rodoviário_solicitação_bagagem;12398945520788    
+;Sub - Motivo - Solicitação - Bagagem - Rodoviário;sub_motivo_solicitação_bagagem_rod_extravio_de_bagagem;12273207766676    
+Informações - Site - Auxílio na Compra;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_auxílio_na_compra;12247903864468    
+Solicitação - LGPD - Atualização de Dados;Motivo - LGPD;lgpd_solicitação_lgpd;12399916522900    
+;Sub - Motivo - Solicitação - LGPD ;sub_motivo_solicitação_lgpd_atualização_de_dados;12275550268820    
+Informação - LGPD - Atualização de Dados;Motivo - LGPD;lgpd_informação_lgpd;12399916522900    
+;Sub - Motivo - Informação - LGPD ;sub_motivo_informacão_lgpd_atualização_de_dados;12275442664212    
+Reclamação - Motorista - Não Cumpriu Horário;Motivo - Rodoviário;rodoviário_reclamação_motorista;12398945520788    
+;Sub - Motivo - Reclamação - Motorista - Rodoviário;sub_motivo_reclamação_motorista_rod_não_cumpriu_horário;12252332794388    
+Reclamação - Atendimento - Motorista;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348    
+;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_motoristas;12274254405268    
+Informações - Site - Programa Fidelidade;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_programa_fidelidade;12247903864468    
+Sugestão - Embarque - Horário;Motivo - Rodoviário;rodoviário_sugestão_embarque;12398945520788    
+;Sub - Motivo - Sugestão - Embarque - Rodoviário;sub_motivo_sugestão_embarque_rod_horário;12255719531156    
+Reclamação - Site - Erro na Compra;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_na_compra;12254661429908    
+Reclamação - Motorista - Não Realizou Embarque / Desembarque;Motivo - Rodoviário;rodoviário_reclamação_motorista;12398945520788    
+;Sub - Motivo - Reclamação - Motorista - Rodoviário;sub_motivo_reclamação_motorista_rod_não_realizou_embarque_desembarque;12252332794388    
+Informação - Atendimento - Central de Relacionamento;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_central_de_relacionamento;12274177107604    
+Reclamação - Motorista - Deixou Passageiro;Motivo - Rodoviário;rodoviário_reclamação_motorista;12398945520788    
+;Sub - Motivo - Reclamação - Motorista - Rodoviário;sub_motivo_reclamação_motorista_rod_deixou_passageiro;12252332794388    
+Informações - Cadastro - Eventual;Motivo - Encomendas;encomendas_informações_cadastro;12398445283348    
+;Sub - Motivo - Informação - Cadastro - Encomendas;sub_motivo_informacão_cadastro_encom_eventual;12274307278100    
+Informação - Benefício - Afinidade;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_afinidade;12245897382804    
+Reclamação - Operacional - Extravio de Bagagem;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788    
+;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_extravio_de_bagagem;12253599088660    
+Informação - Coleta - Confirmar;Motivo - Encomendas;encomendas_informação_coleta;12398445283348    
+;Sub - Motivo - Informação - Coleta - Encomendas;sub_motivo_informacão_coleta_encom_confirmar;12273633901076    
+Informação - Atendimento - Dias e Horários do Balcão;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_dias_e_horários_do_balcão;12274177107604    
+Informação - Atendimento - Motorista;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_motoristas;12274177107604    
+Reclamação - Atendimento - Agência;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788    
+;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_agência;12251594549652    
+Reclamação - Ônibus - Categoria do Veículo;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_categoria_do_veículo;12252812163092    
+Reclamação - Motorista - Direção Inadequada;Motivo - Rodoviário;rodoviário_reclamação_motorista;12398945520788    
+;Sub - Motivo - Reclamação - Motorista - Rodoviário;sub_motivo_reclamação_motorista_rod_direção_inadequada;12252332794388    
+Reclamação - Atendimento - Atendimento Isa;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788    
+;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_atendimento_isa;12251594549652    
+Call Back - Antifraude;Motivo - Rodoviário;rodoviário_call_back;12398945520788    
+;Sub - Motivo - Call Back - Rodoviário;sub_motivo_call_back_rod_antifraude;12273281139860    
+Informação - Passagem - Troca de portador;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_troca_de_portador;12246362839188    
+Elogio - Atendimento - Sac;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788    
+;Sub - Motivo - Elogio - Atendimento - Rodoviário;Não Possui;12254991202964    
+Informação - Rastreio - Embarcada/Postada;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348    
+;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_embarcada_postada;12273951908756    
+Reclamação - APP - Cobrança Indevida;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_cobrança_indevida;12254905117844    
+Reclamação - Ônibus - Quebra de Veículo/Interrupção de Viagem;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_quebra_de_veículo_interrupção_de_viagem;12252812163092    
+Informação - Entrega - Confirmar;Motivo - Encomendas;encomendas_informação_entrega;12398445283348    
+;Sub - Motivo - Informação - Entrega - Encomendas;sub_motivo_informacão_entrega_encom_confirmar;12273689467668    
+Informação - Embarque - Plataforma de embarque / desembarque;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_plataforma_de_embarque_e_desembarque;12246310814356    
+Informação - Ônibus - Fretamento;Motivo - Rodoviário;rodoviário_informação_ônibus;12398945520788    
+;Sub - Motivo - Informação - Ônibus - Rodoviário;sub_motivo_informacão_ônibus_rod_fretamento;12248200205972    
+Informações - APP - Auxílio de Login;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_auxílio_de_login;12248328958356    
+Reclamação - Cobrança Indevida - Cartão de Crédito;Motivo - Rodoviário;rodoviário_reclamação_cobrança_indevida;12398945520788    
+;Sub - Motivo - Reclamação - Cobrança Indevida - Rodoviário;sub_motivo_reclamação_cobrança_indevida_rod_cartão_de_crédito;12253898925972    
+Solicitação - Passagem - Remarcação;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788    
+;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_remarcação;12273286643220    
+Informação - Rastreio - Confirmar Retirada;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348    
+;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_confirmar_retirada;12273951908756    
+Informações - APP - Status de Compra / Konduto;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_status_da_compra;12248328958356    
+Informações - APP - Auxílio de Cadastro;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_auxílio_de_cadastro;12248328958356    
+Reclamação - Site - Erro de Cancelamento;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_de_cancelamento;12254661429908    
+Reclamação - Passagem - Remarcação / Transferência;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_remarcação_tranferência;12253769506324    
+Informação - Documentos - Envio Sem NF;Motivo - Encomendas;encomendas_informação_documentos;12398445283348    
+;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_envio_sem_nf;12273844602516    
+Informações - Gerais - Produtos não Transportados;Motivo - Encomendas;encomendas_informações_gerais;12398445283348    
+;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_produtos_não_transportados;12274550867092    
+Informações - Gerais - Prazos Estimado de Entrega;Motivo - Encomendas;encomendas_informações_gerais;12398445283348    
+;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_prazos_estimados_de_entrega;12274550867092    
+Informação - Passagem - 2ª Via de Bilhete;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_2_via_de_bilhete;12246362839188    
+Informações - Site - Erro de Login;Motivo - Encomendas;encomendas_informações_site;12398445283348    
+;Sub - Motivo - Informações - Site - Encomendas;sub_motivo_informacão_site_encom_erro_de_login;12274128582292    
+Reclamação - Benefícios - Estudante;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_estudante;12251763077396    
+Reclamação - Operacional - Causas Imprevistas Externas;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788    
+;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_causas_imprevistas_externas;12253599088660    
+Reclamação - Ônibus - Poltrona;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_poltrona;12252812163092    
+Reclamação - Ônibus - Limpeza;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_limpeza;12252812163092    
+Reclamação - Operacional - Substituição de Veículo;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788    
+;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_substituição_de_veículo;12253599088660    
+Reclamação - Operacional - Danificação de Bagagem;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788    
+;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_substituição_de_veículo;12253599088660    
+Reclamação - Ônibus - Ar–Condicionado;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_ar_condicionado;12252812163092    
+Informação - Embarque - Trevo;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_trevo;12246310814356    
+Reclamação - Atendimento - Sac;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788    
+;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_sac;12251594549652    
+Reclamação - Operacional - Lotação;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788    
+;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_lotação;12253599088660    
+Informações - Site - Cupom;Motivo - Rodoviário;rodoviário_informação_site;12398945520788    
+;Sub - Motivo - Informação - Site - Rodoviário;sub_motivo_informacão_site_rod_cupom;12247903864468    
+Informações - APP - Cartão de Embarque / QR Code;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_cartão_embarque;12248328958356    
+Elogio - Atendimento - Motorista;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788    
+;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_motorista;12254991202964    
+Reclamação - Embarque - Ponto de Parada;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_ponto_de_parada;12252091115796    
+Reclamação - Itinerário - Linha;Motivo - Rodoviário;rodoviário_reclamação_itinerário;12398945520788    
+;Sub - Motivo - Reclamação - Itinerário - Rodoviário;sub_motivo_reclamação_itinerário_rod_linha;12253857441684    
+Reclamação - Benefícios - Idoso 100%;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_idoso_100;12251763077396    
+Informação - Embarque - Bagagem de Mão;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_bagagem_de_mão;12246310814356    
+Informações - APP - Formas de Pagamento;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_formas_de_pagamento;12248328958356    
+Reclamação - Agência - Toten;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788    
+;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_toten;12251900155540    
+Informação - Documentos - Declaração de Conteúdo;Motivo - Encomendas;encomendas_informação_documentos;12398445283348    
+;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_declaração_de_conteúdo;12273844602516    
+Reclamação - Itinerário - Percurso;Motivo - Rodoviário;rodoviário_reclamação_itinerário;12398945520788    
+;Sub - Motivo - Reclamação - Itinerário - Rodoviário;sub_motivo_reclamação_itinerário_rod_percurso;12253857441684    
+Reclamação - Ônibus - Conservação;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_conservação;12252812163092    
+Reclamação - Site - Comunicação;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_comunicação;12254661429908    
+Reclamação - Benefícios - Programa Fidelidade;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_programa_fidelidade;12251763077396    
+Reclamação - APP - Erro na Compra;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_na_compra;12254905117844    
+Reclamação - Passagem - Erro de Estorno;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_erro_de_estorno;12253769506324    
+Reclamação - Operacional - Causas Imprevistas Internas;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788    
+;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_causas_imprevistas_internas;12253599088660    
+Reclamação - Passagem - Composição de Valores;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_composição_de_valores;12253769506324    
+Informação - Retirada - Retirada por Terceiros;Motivo - Encomendas;encomendas_informação_retirada;12398445283348    
+;Sub - Motivo - Informação - Retirada - Encomendas;sub_motivo_informacão_retirada_encom_retirada_por_terceiros;12274052753556    
+Informação - Passagem - Formas de Pagamento;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_formas_de_pagamento;12246362839188    
+Informação - Embarque - PCD;Motivo - Rodoviário;rodoviário_informação_embarque;12398945520788    
+;Sub - Motivo - Informação - Embarque - Rodoviário;sub_motivo_informacão_embarque_rod_pcd;12246310814356    
+Informações - APP - Erro Código Cartão;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_erro_codigo_cartão;12248328958356    
+Reclamação - Ônibus - Conforto;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_conforto;12252812163092    
+Sugestão - Itinerário - Linha;Motivo - Rodoviário;rodoviário_sugestão_itinerário;12398945520788    
+;Sub - Motivo - Sugestão - Itinerário - Rodoviário;sub_motivo_sugestão_itinerário_rod_linha;12255890149396    
+Reclamação - Agência - Horário de Funcionamento;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788    
+;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_horário_de_funcionamento;12251900155540    
+Reclamação - Embarque - Bagagem;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_bagagem;12252091115796    
+Reclamação - Ônibus - Frota de Terceiros;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_frota_de_terceiros;12252812163092    
+Informação - Coleta - Cancelar;Motivo - Encomendas;encomendas_informação_coleta;12398445283348    
+;Sub - Motivo - Informação - Coleta - Encomendas;sub_motivo_informacão_coleta_encom_cancelar;12273633901076    
+Solicitação - Bagagem - Danificação de Bagagem;Motivo - Rodoviário;rodoviário_solicitação_bagagem;12398945520788    
+;Sub - Motivo - Solicitação - Bagagem - Rodoviário;sub_motivo_solicitação_bagagem_rod_danificação_de_bagagem;12273207766676    
+Antifraude - Análise de Cadastro - Dados Suspeitos;Motivo - Rodoviário;rodoviário_antifraude;12398945520788    
+;Sub - Motivo - Antifraude - Rodoviário;sub_motivo_antifraude_rod_dados_suspeitos;12273337240084    
+Reclamação - Ônibus - Banheiro;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_banheiro;12252812163092    
+Informação - Atendimento -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Informação - Benefício - Policial / Bombeiro;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_policial_bombeiro;12245897382804    
+Informação - Benefício - Viagem Família;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_viagem_família;12245897382804    
+Reclamação - Passagem - Remarcação;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_remarcação;12253769506324    
+Reclamação - Ônibus - Falha Mecânica;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_falha_mecânica;12252812163092    
+Informações - APP - Afinidade;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_afinidade;12248328958356    
+Reclamação - Programa Fidelidade - Não pontuou;Motivo - Rodoviário;rodoviário_reclamação_programa_fidelidade;12398945520788    
+;Sub - Motivo - Reclamação - Programa Fidelidade - Rodoviário;sub_motivo_reclamação_programa_fidelidade_rod_não_pontuou;12253797570452    
+Solicitação - LGPD - Exclusão de Dados;Motivo - LGPD;lgpd_solicitação_lgpd;12399916522900    
+;Sub - Motivo - Solicitação - LGPD ;sub_motivo_solicitação_lgpd_exclusão_de_dados;12275550268820    
+Informação - LGPD - Exclusão de Dados;Motivo - LGPD;lgpd_informação_lgpd;12399916522900    
+;Sub - Motivo - Informação - LGPD ;sub_motivo_informacão_lgpd_exclusão_de_dados;12275442664212    
+Informação - Programa Fidelidade - Bônus Fidelidade;Motivo - Rodoviário;rodoviário_informação_programa_fidelidade;12398945520788    
+;Sub - Motivo - Informação - Programa Fidelidade - Rodoviário;sub_motivo_informacão_programa_fidelidade_rod_bônus_fidelidade;12246421835796    
+Reclamação - Ônibus - Goteira;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_goteira;12252812163092    
+Elogio - Atendimento - Bilheteiro;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788    
+;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_bilheteiro;12254991202964    
+Reclamação - Atendimento - Auxiliar de Plataforma;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788    
+;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_auxiliar_de_plataforma;12251594549652    
+Reclamação - Site - Erro de Login;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_de_login;12254661429908    
+Reclamação - Rastreio - Chegada no Destino;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348    
+;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_chegou_no_destino;12273958889108    
+Reclamação - Benefícios - Vale Transporte;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_vale_transporte;12251763077396    
+Reclamação - Site - Inoperante;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_inoperante;12254661429908    
+Informação - Rastreio - Sem Atualização SSW;Motivo - Encomendas;encomendas_informação_rastreio;12398445283348    
+;Sub - Motivo - Informação - Rastreio - Encomendas;sub_motivo_informação_rastreio_encom_sem_atualização_ssw;12273951908756    
+Reclamação - Embarque - Valores;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_valores;12252091115796    
+Informações - Cadastro - Correntistas;Motivo - Encomendas;encomendas_informações_cadastro;12398445283348    
+;Sub - Motivo - Informação - Cadastro - Encomendas;sub_motivo_informacão_cadastro_encom_correntistas;12274307278100    
+Reclamação - Ônibus - Wifi;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_wifi;12252812163092    
+Informação - Frete - Formas de Pagamento;Motivo - Encomendas;encomendas_informação_frete;12398445283348    
+;Sub - Motivo - Informação - Frete - Encomendas;sub_motivo_informacão_frete_encom_formas_de_pagamento;12273754828564    
+Reclamação - Embarque - Achados e Perdidos;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_achados_e_perdidos;12252091115796    
+Reclamação - Embarque - Documentos;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_documentos;12252091115796    
+Sugestão - Operacional - Novos Horários;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788    
+;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_novos_horários;12273192263828    
+Elogio - Atendimento - CRC;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788    
+;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_crc;12254991202964    
+Sugestão - Embarque - Ponto de Parada;Motivo - Rodoviário;rodoviário_sugestão_embarque;12398945520788    
+;Sub - Motivo - Sugestão - Embarque - Rodoviário;sub_motivo_sugestão_embarque_rod_ponto_de_parada;12255719531156    
+Informação - Embarque -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Informação - Documentos - 2ª via NF;Motivo - Encomendas;encomendas_informação_documentos;12398445283348    
+;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_2_via_nf;12273844602516    
+Reclamação - Rastreio - Sem Atualização SSW;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348    
+;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_sem_atualização_ssw;12273958889108    
+Reclamação - Ônibus - Barulho;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_barulho;12252812163092    
+Reclamação - Ônibus - Cinto de Segurança;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_cinto_de_segurança;12252812163092    
+Sugestão - Ônibus - Serviços;Motivo - Rodoviário;rodoviário_sugestão_ônibus;12398945520788    
+;Sub - Motivo - Sugestão - Ônibus - Rodoviário;sub_motivo_sugestão_ônibus_rod_serviços;12255930839444    
+Pedido - Cotação - Análise de Desconto;Motivo - Encomendas;encomendas_pedido_cotação;12398445283348    
+;Sub - Motivo - Pedido - Cotação - Encomendas;sub_motivo_pedido_cotação_encom_análise_de_desconto;12274898207252    
+Informações - Gerais - Medidas do Bagageiro;Motivo - Encomendas;encomendas_informações_gerais;12398445283348    
+;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_medidas_do_bagageiro;12274550867092    
+Ligação Muda / Engano -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - APP - Erro de Estorno;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_de_estorno;12254905117844    
+Reclamação - Agência - Erro de Estorno;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788    
+;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_erro_de_estorno;12251900155540    
+Informações - Gerais - Limite de Peso por Volume;Motivo - Encomendas;encomendas_informações_gerais;12398445283348    
+;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_limite_de_peso_por_volume;12274550867092    
+Reclamação - Site - Erro de Cadastro;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_erro_de_cadastro;12254661429908    
+Informação - Passagem - Declaração;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_declaração;12246362839188    
+Reclamação - Embarque - Animais;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_animais;12252091115796    
+Informação - Frete - Paga no Destino (FOB);Motivo - Encomendas;encomendas_informação_frete;12398445283348    
+;Sub - Motivo - Informação - Frete - Encomendas;sub_motivo_informacão_frete_encom_paga_no_destino_fob;12273754828564    
+Informação - Benefício - Programa Fidelidade Comerciante;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_programa_fidelidade_comerciante;12245897382804    
+Informação - Retirada - Documentos Necessários;Motivo - Encomendas;encomendas_informação_retirada;12398445283348    
+;Sub - Motivo - Informação - Retirada - Encomendas;sub_motivo_informacão_retirada_encom_documentos_necessários;12274052753556    
+Informação - Mercadoria - Extravio;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348    
+;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_extravio;12274987989652    
+Informação - LGPD - Utilização dos Dados Pessoais;Motivo - LGPD;lgpd_informação_lgpd;12399916522900    
+;Sub - Motivo - Informação - LGPD ;sub_motivo_informacão_lgpd_utilização_dos_dados_pessoais;12275442664212    
+Cliente Não Identificado -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Informação - Passagem - Seguro Facultativo;Motivo - Rodoviário;rodoviário_informação_passagem;12398945520788    
+;Sub - Motivo - Informação - Passagem - Rodoviário;sub_motivo_informacão_passagem_rod_seguro_facultativo;12246362839188    
+Informação - Valores/fatura - Não recebeu Fatura;Motivo - Encomendas;encomendas_informação_valores;12398445283348    
+;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_não_recebeu_fatura;12275112194708    
+Reclamação - APP - Comunicação;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_comunicação;12254905117844    
+Reclamação - Ônibus - Água;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_água;12252812163092    
+Informação - Atendimento - Toten;Motivo - Rodoviário;rodoviário_informação_atendimento;12398945520788    
+;Sub - Motivo - Informação - Atendimento - Rodoviário;sub_motivo_informacão_atendimento_rod_toten;12226677237012    
+Sugestão - Itinerário - Percurso;Motivo - Rodoviário;rodoviário_sugestão_itinerário;12398945520788    
+;Sub - Motivo - Sugestão - Itinerário - Rodoviário;sub_motivo_sugestão_itinerário_rod_percurso;12255890149396    
+Informação - Operacional - Roubo/Furto;Motivo - Rodoviário;rodoviário_informação_operacional;12398945520788    
+;Sub - Motivo - Informação - Operacional - Rodoviário;sub_motivo_informacão_operacional_rod_roubo_furto;12248209756308    
+Elogio - Atendimento - Agência;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788    
+;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_agencia;12254991202964    
+Reclamação - Embarque - Menor de Idade;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_menor_de_idade;12252091115796    
+Informação - Documentos - 2ª via CTE;Motivo - Encomendas;encomendas_informação_documentos;12398445283348    
+;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_2_via_cte;12273844602516    
+Informações - Gerais - Se Tem Coleta;Motivo - Encomendas;encomendas_informações_gerais;12398445283348    
+;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_se_tem_coleta;12274550867092    
+Solicitação - Atendimento - Reserva – Programa Fidelidade;Motivo - Rodoviário;rodoviário_solicitação_atendimento;12398945520788    
+;Sub - Motivo - Solicitação - Atendimento - Rodoviário;sub_motivo_solicitação_atendimento_rod_reserva_programa_fidelidade;12273204012564    
+Informação - Operacional - Desvio de Itinerário;Motivo - Rodoviário;rodoviário_informação_operacional;12398945520788    
+;Sub - Motivo - Informação - Operacional - Rodoviário;sub_motivo_informacão_operacional_rod_desvio_de_itinerário;12248209756308    
+Informação - Coleta - Reagendar;Motivo - Encomendas;encomendas_informação_coleta;12398445283348    
+;Sub - Motivo - Informação - Coleta - Encomendas;sub_motivo_informacão_coleta_encom_reagendar;12273633901076    
+Informação - Valores/fatura - Tabela de Preços;Motivo - Encomendas;encomendas_informação_valores;12398445283348    
+;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_tabela_de_preços;12275112194708    
+Informações - APP - Status de Compra;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_status_da_compra;12248328958356    
+Informações - APP - Auxílio na Compra;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_auxílio_na_compra;12248328958356    
+Elogio - Ônibus - Serviços;Motivo - Rodoviário;rodoviário_elogio_ônibus;12398945520788    
+;Sub - Motivo - Elogio - Ônibus - Rodoviário;sub_motivo_elogio_ônibus_rod_serviços;12255236787092    
+Informações - Gerais - Tipo de Embalagem e se Fornece;Motivo - Encomendas;encomendas_informações_gerais;12398445283348    
+;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_tipo_de_embalagem_e_se_fornece;12274550867092    
+Informação - Valores/fatura - Cobrança Indevida;Motivo - Encomendas;encomendas_informação_valores;12398445283348    
+;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_cobrança_indevida;12275112194708    
+Informação - Ônibus - Acessibilidade - Deficiente Físico;Motivo - Rodoviário;rodoviário_informação_ônibus;12398945520788    
+;Sub - Motivo - Informação - Ônibus - Rodoviário;sub_motivo_informacão_ônibus_rod_acessibilidade__deficiente_físico;12248200205972    
+Reclamação - Benefícios - ID Jovem;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_idjovem;12251763077396    
+Reclamação - Site - Status de Compra / Konduto;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_status_de_compra;12254661429908    
+Informação - Mercadoria - Faltando Itens;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348    
+;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_faltando_itens;12274987989652    
+Reclamação - Operacional - Desvio de Itinerário;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788    
+;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_desvio_de_itinerario;12253599088660    
+Informações - APP - Programa Fidelidade;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_programa_fidelidade;12248328958356    
+Reclamação - APP - Inoperante;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_inoperante;12254905117844    
+Sugestão - Operacional - Alteração de Horário;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788    
+;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_alteração_de_horário;12273192263828    
+Reclamação - Site - Cartão de Embarque / QR Code;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_sub_motivo_reclamação_site_rod_cartão_embarque;12254661429908    
+Reclamação - Ônibus - Pneu furado;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_pneu_furado;12252812163092    
+Reclamação - Cobrança Indevida - Agência;Motivo - Rodoviário;rodoviário_reclamação_cobrança_indevida;12398945520788    
+;Sub - Motivo - Reclamação - Cobrança Indevida - Rodoviário;sub_motivo_reclamação_cobrança_indevida_rod_agência;12253898925972    
+Reclamação - Site - Voucher;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_voucher;12254661429908    
+Reclamação - Cobrança Indevida - Cartão de Débito;Motivo - Rodoviário;rodoviário_reclamação_cobrança_indevida;12398945520788    
+;Sub - Motivo - Reclamação - Cobrança Indevida - Rodoviário;sub_motivo_reclamação_cobrança_indevida_rod_cartão_de_débito;12253898925972    
+Informação - Valores/fatura - Valor Diferente do Combinado;Motivo - Encomendas;encomendas_informação_valores;12398445283348    
+;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_valor_diferente_do_combinado;12275112194708    
+Informação - Atendimento - Tempo Espera para Atendimento Balcão;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_tempo_espera_para_atendimento_balcão;12274177107604    
+Reclamação - Benefícios - Idoso 50%;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_idoso_50;12251763077396    
+Sugestão - Site - Funcionalidade;Motivo - Rodoviário;rodoviário_sugestão_site;12398945520788    
+;Sub - Motivo - Sugestão - Site - Rodoviário;sub_motivo_sugestão_site_rod_funcionalidade;12255996693780    
+Reclamação - Embarque - Plataforma de embarque / desembarque;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_plataforma_de_embarque_desembarque;12252091115796    
+Reclamação - Passagem - Transferência;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_transferência;12253769506324    
+Solicitação - Passagem - Declaração;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788    
+;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_declaração;12273286643220    
+Reclamação - APP - Erro de Cancelamento;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_de_cancelamento;12254905117844    
+Reclamação - Benefícios - Deficiente Físico;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_deficiente_físico;12251763077396    
+Informação - Entrega - Remarcar;Motivo - Encomendas;encomendas_informação_entrega;12398445283348    
+;Sub - Motivo - Informação - Entrega - Encomendas;sub_motivo_informacão_entrega_encom_remarcar;12273689467668    
+Reclamação - Programa Fidelidade - Emissão de Bônus;Motivo - Rodoviário;rodoviário_reclamação_programa_fidelidade;12398945520788    
+;Sub - Motivo - Reclamação - Programa Fidelidade - Rodoviário;sub_motivo_reclamação_programa_fidelidade_rod_emissão_de_bônus;12253797570452    
+Sugestão - Ônibus - Categoria do Veículo;Motivo - Rodoviário;rodoviário_sugestão_ônibus;12398945520788    
+;Sub - Motivo - Sugestão - Ônibus - Rodoviário;sub_motivo_sugestão_ônibus_rod_categoria_do_veículo;12255930839444    
+Antifraude - Status de Compra;Motivo - Rodoviário;rodoviário_antifraude;12398945520788    
+;Sub - Motivo - Antifraude - Rodoviário;sub_motivo_antifraude_rod_status_de_compra;12273337240084    
+Compliance - Compliance;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - Atendimento - Fiscal;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788    
+;Sub - Motivo - Reclamação - Atendimento - Rodoviário;sub_motivo_reclamação_atendimento_rod_fiscal;12251594549652    
+Elogio - Ônibus - Frota;Motivo - Rodoviário;rodoviário_elogio_ônibus;12398945520788    
+;Sub - Motivo - Elogio - Ônibus - Rodoviário;sub_motivo_elogio_ônibus_rod_frota;12255236787092    
+Reclamação - Site - Não gerou voucher;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_não_gerou_voucher;12254661429908    
+Reclamação - Operacional - Roubo/Furto;Motivo - Rodoviário;rodoviário_reclamação_operacional;12398945520788    
+;Sub - Motivo - Reclamação - Operacional - Rodoviário;sub_motivo_reclamação_operacional_rod_roubo_furto;12253599088660    
+Solicitação - Passagem - 2ª Via de Bilhete;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788    
+;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_2_via_de_bilhete;12273286643220    
+Elogio - Benefícios - Programa Fidelidade;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - Ônibus - Cobertor;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_cobertor;12252812163092    
+Informação - Mercadoria - Mercadoria Trocada;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348    
+;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_mercadoria_trocada;12274987989652    
+Informações - Site -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Solicitação - Embarque - Achados e Perdidos;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Informações - Gerais - Tabela de Valores;Motivo - Encomendas;encomendas_informações_gerais;12398445283348    
+;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_tabela_de_valores;12274550867092    
+Reclamação - Atendimento - Endereço/Telefone Balcão;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348    
+;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_endereço_telefone_balcão;12274254405268    
+Reclamação - Ônibus - Tomadas / USB;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_tomadas_usb;12252812163092    
+Informação - Atendimento - Agenciador;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_agenciador;12274177107604    
+Informações - Cadastro - Alteração de Dados;Motivo - Encomendas;encomendas_informações_cadastro;12398445283348    
+;Sub - Motivo - Informação - Cadastro - Encomendas;sub_motivo_informacão_cadastro_encom_alteração_de_dados;12274307278100    
+Reclamação - Rastreio - Prazo de Chegada;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348    
+;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_prazo_chegada;12273958889108    
+Reclamação - Agência - Cobrança Indevida;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788    
+;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_cobrança_indevida;12251900155540    
+Reclamação - Agência - Comunicação Visual;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788    
+;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_comunicação_visual;12251900155540    
+Reclamação - Embarque - Remarcação / Transferência;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;Não Possui;12252091115796    
+Informação - Frete - Paga na Origem (CIF);Motivo - Encomendas;encomendas_informação_frete;12398445283348    
+;Sub - Motivo - Informação - Frete - Encomendas;sub_motivo_informacão_frete_encom_paga_na_origem_cif;12273754828564    
+Solicitação - Passagem - Transferência - Bônus Fidelidade;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788    
+;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_transferência;12273286643220    
+;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_bônus_fidelidade;12273286643220    
+Sugestão - Operacional - Frota;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788    
+;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_frota;12273192263828    
+Reclamação - Embarque - Afinidade;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_afinidade;12252091115796    
+Informação - Atendimento - Coletor;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_coletor;12274177107604    
+Reclamação - Passagem - Seguro Facultativo;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_seguro_facultativo;12253769506324    
+Sugestão - Benefícios - Gratuidades;Motivo - Rodoviário;rodoviário_sugestão_beneficios;12398945520788    
+;Sub - Motivo - Sugestão - Beneficios - Rodoviário;sub_motivo_sugestão_benefícios_rod_gratuidades;12255414948244    
+Informações - Gerais - Se Tem Entrega;Motivo - Encomendas;encomendas_informações_gerais;12398445283348    
+;Sub - Motivo - Informações - Gerais - Encomendas;sub_motivo_informações_gerais_encom_se_tem_entrega;12274550867092    
+Reclamação - Mercadoria - Extravio;Motivo - Encomendas;encomendas_reclamação_mercadoria;12398445283348    
+;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;12275127831828    
+Reclamação - APP - Erro de Cadastro;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_de_cadastro;12254905117844    
+Reclamação - Site - Reserva – Programa Fidelidade;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_reserva_programa_fidelidade;12254661429908    
+Elogio - Site - Funcionalidade;Motivo - Rodoviário;rodoviário_elogio_site;12398945520788    
+;Sub - Motivo - Elogio - Site - Rodoviário;sub_motivo_elogio_site_rod_funcionalidade;12255236117780    
+Pedido - Cotação - Venda;Motivo - Encomendas;encomendas_pedido_cotação;12398445283348    
+;Sub - Motivo - Pedido - Cotação - Encomendas;sub_motivo_pedido_cotação_encom_venda;12274898207252    
+Informação - Valores/fatura - Vencimento da Fatura;Motivo - Encomendas;encomendas_informação_valores;12398445283348    
+;Sub - Motivo - Informação - Valores/fatura - Encomendas;sub_motivo_informacão_valores_coleta_encom_vencimento_da_fatura;12275112194708    
+Reclamação - Passagem - 2ª Via de Bilhete;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_2_via_de_bilhete;12253769506324    
+Reclamação - Itinerário - Seção;Motivo - Rodoviário;rodoviário_reclamação_itinerário;12398945520788    
+;Sub - Motivo - Reclamação - Itinerário - Rodoviário;sub_motivo_reclamação_itinerário_rod_secção;12253857441684    
+Sugestão - Operacional - Novas Linhas;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788    
+;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_novas_linhas;12273192263828    
+Informação - Cancelamento - Reserva – Programa Fidelidade;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Informação - Documentos - Fatura;Motivo - Encomendas;encomendas_informação_documentos;12398445283348    
+;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_fatura;12273844602516    
+Informação - Documentos - 2ª Via de Boleto;Motivo - Encomendas;encomendas_informação_documentos;12398445283348    
+;Sub - Motivo - Informação - Documentos - Encomendas;sub_motivo_informacão_documentos_encom_2_via_boleto;12273844602516    
+Sugestão - Site - Comunicação;Motivo - Rodoviário;rodoviário_sugestão_site;12398945520788    
+;Sub - Motivo - Sugestão - Site - Rodoviário;sub_motivo_sugestão_site_rod_comunicação;12255996693780    
+Sugestão - Embarque - Valores;Motivo - Rodoviário;rodoviário_sugestão_embarque;12398945520788    
+;Sub - Motivo - Sugestão - Embarque - Rodoviário;sub_motivo_sugestão_embarque_rod_valores;12255719531156    
+Informação - Mercadoria - Mercadoria Avariada;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348    
+;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_mercadoria_avariada;12274987989652    
+Reclamação - Atendimento - Agenciador;Motivo - Rodoviário;rodoviário_reclamação_atendimento;12398945520788    
+;Sub - Motivo - Reclamação - Atendimento - Rodoviário;Não Possui;12251594549652    
+Reclamação - Site - Cupom;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_cupom;12254661429908    
+Reclamação - Ônibus - Kit Lanche;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_kit_lanche;12252812163092    
+Informação - Benefício -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Sugestão - Benefícios - Programa Fidelidade;Motivo - Rodoviário;rodoviário_sugestão_beneficios;12398945520788    
+;Sub - Motivo - Sugestão - Beneficios - Rodoviário;sub_motivo_sugestão_benefícios_rod_programa_fidelidade;12255414948244    
+Sugestão - Operacional - Itinerários;Motivo - Rodoviário;rodoviário_sugestão_operacional;12398945520788    
+;Sub - Motivo - Sugestão - Operacional - Rodoviário;sub_motivo_sugestão_operacional_rod_itinerários;12273192263828    
+Elogio - Atendimento - Auxiliar de Plataforma;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788    
+;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_auxiliar_de_plataforma;12254991202964    
+Reclamação - Coleta/Entrega - Atraso;Motivo - Encomendas;encomendas_reclamação_coleta_entrega;12398445283348    
+;Sub - Motivo - Reclamação - Coleta/Entrega - Encomendas;sub_motivo_reclamação_coleta_entrega_encom_atraso;12275179832852    
+Reclamação - Passagem - Descrição;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_descrição;12253769506324    
+Informações - APP - Inoperante;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_inoperante;12248328958356    
+Informação - Passagem -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - Embarque - Bagagem de Mão;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_bagagem_de_mão;12252091115796    
+Venda - Fretamento Turismo;Motivo - Encomendas;encomendas_vendas;12398445283348    
+;Sub - Motivo - Venda - Encomendas;Não Possui;12275241775764    
+Reclamação - APP - Erro de Login;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_erro_de_login;12254905117844    
+Solicitação - Cadastro - Eventual;Motivo - Encomendas;encomendas_solicitação_cadastro;12398445283348    
+;Sub - Motivo - Solicitação - Cadastro - Encomendas;sub_motivo_solicitação_cadastro_encom_eventual;12274891865236    
+Reclamação - Coleta - Confirmação;Motivo - Encomendas;encomendas_reclamação_coleta;12398445283348    
+;Sub - Motivo - Reclamação - Coleta - Encomendas;sub_motivo_reclamação_coleta_encom_confirmação;12273708782228    
+Reclamação - Embarque - Terminal Rodoviário;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_terminal_rodoviário;12252091115796    
+Reclamação - Agência - Limpeza;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788    
+;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_limpeza;12251900155540    
+Reclamação - APP - Status de Compra / Konduto;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;Não Possui;12254905117844    
+Venda -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Informação - Atendimento - Tempo Espera para Atendimento CRC;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_tempo_espera_para_atendimento_crc;12274177107604    
+Reclamação - Ônibus - Pane Seca;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_pane_seca;12252812163092    
+Reclamação - Atendimento - Central de Relacionamento;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348    
+;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_central_de_relacionamento;12274254405268    
+Reclamação - Entrega - Confirmação;Motivo - Encomendas;encomendas_reclamação_entrega;12398445283348    
+;Sub - Motivo - Reclamação - Entrega - Encomendas;sub_motivo_reclamação_entrega_encom_confirmação;12273715614612    
+Reclamação - Coleta/Entrega - Não Realizada;Motivo - Encomendas;encomendas_reclamação_coleta_entrega;12398445283348    
+;Sub - Motivo - Reclamação - Coleta/Entrega - Encomendas;sub_motivo_reclamação_coleta_entrega_encom_não_realizada;12275179832852    
+Reclamação - Rastreio - Embarcada/Postada;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348    
+;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_embarcada_postada;12273958889108    
+Reclamação - Site - Antifraude;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_anti_fraude;12254661429908    
+Reclamação - Agência - Erro na Compra;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788    
+;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_erro_na_compra;12251900155540    
+Reclamação - Ônibus - Ar – Condicionado;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_ar_condicionado;12252812163092    
+Elogio - Site - Comunicação;Motivo - Rodoviário;rodoviário_elogio_site;12398945520788    
+;Sub - Motivo - Elogio - Site - Rodoviário;sub_motivo_elogio_site_rod_comunicação;12255236117780    
+Fretamento - Informação - Turismo;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - Benefícios - Afinidade;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_afinidade;12251763077396    
+Reclamação - Embarque - Trevo;Motivo - Rodoviário;rodoviário_reclamação_embarque;12398945520788    
+;Sub - Motivo - Reclamação - Embarque - Rodoviário;sub_motivo_reclamação_embarque_rod_trevo;12252091115796    
+Reclamação - Mercadoria - Faltando Itens;Motivo - Encomendas;encomendas_reclamação_mercadoria;12398445283348    
+;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;sub_motivo_reclamação_mercadoria_encom_faltando_itens;12275127831828    
+Reclamação - Atendimento - Tempo Espera para Atendimento Balcão;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348    
+;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_tempo_espera_para_atendimento_balcão;12274254405268    
+Informação - Mercadoria - Embalagem Violada;Motivo - Encomendas;encomendas_informação_mercadoria;12398445283348    
+;Sub - Motivo - Informação - Mercadoria - Encomendas;sub_motivo_informacão_mercadoria_encom_embalagem_violada;12274987989652    
+Reclamação - Site - Status de Compra;Motivo - Rodoviário;rodoviário_reclamação_site;12398945520788    
+;Sub - Motivo - Reclamação - Site - Rodoviário;sub_motivo_reclamação_site_rod_status_de_compra;12254661429908    
+Informações - APP - Cupom;Motivo - Rodoviário;rodoviário_informação_app;12398945520788    
+;Sub - Motivo - Informação - APP - Rodoviário;sub_motivo_informacão_app_rod_cupom;12248328958356    
+Informação - Itinerário -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Elogio - Benefícios - Instituições;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Venda - Fretamento Contínuo;Motivo - Encomendas;encomendas_vendas;12398445283348    
+;Sub - Motivo - Venda - Encomendas;Não Possui;12275241775764    
+Sugestão - Benefícios - Descontos;Motivo - Rodoviário;rodoviário_sugestão_beneficios;12398945520788    
+;Sub - Motivo - Sugestão - Beneficios - Rodoviário;sub_motivo_sugestão_benefícios_rod_descontos;12255414948244    
+Solicitação - Cancelamento - Reserva – Programa Fidelidade;Motivo - Rodoviário;rodoviário_solicitação_cancelamento;12398945520788    
+;Sub - Motivo - Solicitação - Cancelamento - Rodoviário;sub_motivo_solicitação_cancelamento_rod_reserva_programa_fidelidade;12273197974676    
+Sugestão - Benefícios - Instituições;Motivo - Rodoviário;rodoviário_sugestão_beneficios;12398945520788    
+;Sub - Motivo - Sugestão - Beneficios - Rodoviário;sub_motivo_sugestão_benefícios_rod_instituições;12255414948244    
+Reclamação - Atendimento - Cidades Atendidas;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348    
+;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_cidades_atendidas;12274254405268    
+Informação - Atendimento - Agente CRC;Motivo - Encomendas;encomendas_informação_atendimento;12398445283348    
+;Sub - Motivo - Informação - Atendimento - Encomendas;sub_motivo_informação_atendimento_encom_agente_crc;12274177107604    
+Reclamação - LGPD - Utilização dos Dados Pessoais;Motivo - LGPD;lgpd_reclamação_lgpd;12399916522900    
+;Sub - Motivo - Reclamação - LGPD ;sub_motivo_reclamação_lgpd_utilização_dos_dados_pessoais;12275544894484    
+Informação - LGPD - Bloqueio de Dados;Motivo - LGPD;lgpd_informação_lgpd;12399916522900    
+;Sub - Motivo - Informação - LGPD ;sub_motivo_informacão_lgpd_bloqueio_de_dados;12275442664212    
+Reclamação - Coleta - Agendamento;Motivo - Encomendas;encomendas_reclamação_coleta;12398445283348    
+;Sub - Motivo - Reclamação - Coleta - Encomendas;sub_motivo_reclamação_coleta_encom_agendamento;12273708782228    
+Reclamações - Cadastro - Eventual;Motivo - Encomendas;encomendas_reclamações_cadastro;12398445283348    
+;Sub - Motivo - Reclamações - Cadastro - Encomendas;sub_motivo_reclamacão_cadastro_encom_eventual;12274317222676    
+Reclamação - Mercadoria - Embalagem Violada;Motivo - Encomendas;encomendas_reclamação_mercadoria;12398445283348    
+;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;sub_motivo_reclamação_mercadoria_encom_embalagem_violada;12275127831828    
+Reclamação - Benefícios - Policial / Bombeiro;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_policial_bombeiro;12251763077396    
+Informação - Programa Fidelidade - Canais de Compra;Motivo - Rodoviário;rodoviário_informação_programa_fidelidade;12398945520788    
+;Sub - Motivo - Informação - Programa Fidelidade - Rodoviário;sub_motivo_informacão_programa_fidelidade_rod_canais_de_compra;12246421835796    
+Reclamação - Frete - Pagamento no Destino (FOB);Motivo - Encomendas;encomendas_reclamação_frete;12398445283348    
+;Sub - Motivo - Reclamação - Frete - Encomendas;sub_motivo_reclamação_frete_encom_pagamento_no_destino_fob;12273768755476    
+Reclamação - Ônibus - Acessibilidade - Deficiente Físico;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_acessibilidade_deficiente_físico;12252812163092    
+Solicitação - Atendimento -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - Site -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - Motorista -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Elogio - Atendimento - Fiscal;Motivo - Rodoviário;rodoviário_elogio_atendimento;12398945520788    
+;Sub - Motivo - Elogio - Atendimento - Rodoviário;sub_motivo_elogio_atendimento_rod_fiscal;12254991202964    
+Reclamação - Benefícios - Programa Fidelidade Comerciante;Motivo - Rodoviário;rodoviário_reclamação_benefício;12398945520788    
+;Sub - Motivo - Reclamação - Benefício - Rodoviário;sub_motivo_reclamação_benefício_rod_programa_fidelidade_e_comerciante;12251763077396    
+Solicitação - Documentos - 2ª via NF;Motivo - Encomendas;encomendas_solicitação_documentos;12398445283348    
+;Sub - Motivo - Solicitação - Documentos - Encomendas;sub_motivo_solicitação_documentos_encom_2_via_nf;12274795938580    
+Reclamação - Mercadoria - Mercadoria Avariada;Motivo - Encomendas;encomendas_reclamação_mercadoria;12398445283348    
+;Sub - Motivo - Reclamação - Mercadoria - Encomendas ;sub_motivo_reclamação_mercadoria_encom_mercadoria_avariada;12275127831828    
+Reclamação - Rastreio - Confirmação de Retirada;Motivo - Encomendas;encomendas_reclamação_rastreio;12398445283348    
+;Sub - Motivo - Reclamação - Rastreio - Encomendas;sub_motivo_reclamação_rastreio_encom_confirmar_retirada;12273958889108    
+Reclamações - Gerais - Produtos não Transportados;Motivo - Encomendas;encomendas_reclamações_gerais;12398445283348    
+;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_produtos_não_transportados;12274571184276    
+Reclamação - Documentos - Envio Sem NF;Motivo - Encomendas;encomendas_reclamação_documentos;12398445283348    
+;Sub - Motivo - Reclamação - Documentos - Encomendas;sub_motivo_reclamação_documentos_encom_envio_sem_nf;12273856411668    
+Reclamação - Cotação - Valores;Motivo - Encomendas;encomendas_reclamação_cotação;12398445283348    
+;Sub - Motivo - Reclamação - Cotação - Encomendas;sub_motivo_reclamação_cotação_encom_valores;12274930930452    
+Elogio - Agenciador;Motivo - Encomendas;encomendas_elogio;12398445283348    
+;Sub - Motivo - Elogio - Encomendas;sub_motivo_elogio_encom_agenciador;12275348073364    
+Informações - Cadastro - Prazo de Cadastro;Motivo - Encomendas;encomendas_informações_cadastro;12398445283348    
+;Sub - Motivo - Informação - Cadastro - Encomendas;sub_motivo_informacão_cadastro_encom_prazo_de_cadastro;12274307278100    
+Solicitação - Atendimento - Viagem PCD;Motivo - Rodoviário;rodoviário_solicitação_atendimento;12398945520788    
+;Sub - Motivo - Solicitação - Atendimento - Rodoviário;sub_motivo_solicitação_atendimento_rod_viagem_pcd;12273204012564    
+Antifraude - Cancelamento;Motivo - Rodoviário;rodoviário_antifraude;12398945520788    
+;Sub - Motivo - Antifraude - Rodoviário;sub_motivo_antifraude_rod_cancelamento;12273337240084    
+Elogio - Agente CRC;Motivo - Encomendas;encomendas_elogio;12398445283348    
+;Sub - Motivo - Elogio - Encomendas;sub_motivo_elogio_encom_agente_crc;12275348073364    
+Reclamação - Valores/Fatura - Cobrança Indevida;Motivo - Encomendas;encomendas_reclamação_valores;12398445283348    
+;Sub - Motivo - Reclamação - Valores/fatura - Encomendas;sub_motivo_reclamação_valores_coleta_encom_cobrança_indevida;12275140763796    
+Informação - Benefício - Lide / Empresarial;Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_lide_empresarial;12245897382804    
+Reclamação - Passagem - Troca de portador;Motivo - Rodoviário;rodoviário_reclamação_passagem;12398945520788    
+;Sub - Motivo - Reclamação - Passagem - Rodoviário;sub_motivo_reclamação_passagem_rod_troca_de_portador;12253769506324    
+Reclamação - Embarque -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Fretamento - Informação - Contínuo;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Fretamento - Turismo -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Solicitação - Embarque - Extravio de Bagagem;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Call Back -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - Operacional -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Solicitação - Cancelamento -;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - APP - Reserva – Programa Fidelidade;Motivo - Rodoviário;rodoviário_reclamação_app;12398945520788    
+;Sub - Motivo - Reclamação - APP - Rodoviário;sub_motivo_reclamação_app_rod_reserva_programa_fidelidade;12254905117844    
+Elogio - Benefícios - Viagem Família;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Sugestão - Itinerário - Seção;Motivo - Rodoviário;rodoviário_sugestão_itinerário;12398945520788    
+;Sub - Motivo - Sugestão - Itinerário - Rodoviário;sub_motivo_sugestão_itinerário_rod_seção;12255890149396    
+Informação - Atendimento - PCD;Não Possui;Não Possui;Não Possui
+;Não Possui;Não Possui;Não Possui
+Reclamação - Ônibus - Filmes;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_filmes;12252812163092    
+Solicitação - LGPD - Bloqueio de Dados;Motivo - LGPD;lgpd_solicitação_lgpd;12399916522900    
+;Sub - Motivo - Solicitação - LGPD ;sub_motivo_solicitação_lgpd_bloqueio_de_dados;12275550268820    
+Reclamações - Gerais - Medidas do Bagageiro;Motivo - Encomendas;encomendas_reclamações_gerais;12398445283348    
+;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_medidas_do_bagageiro;12274571184276    
+Reclamação - Frete - Formas de Pagamento;Motivo - Encomendas;encomendas_reclamação_frete;12398445283348    
+;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_formas_de_pagamento;12274571184276    
+Reclamações - Gerais - Limite de Peso por Volume;Motivo - Encomendas;encomendas_reclamações_gerais;12398445283348    
+;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_limite_de_peso_por_volume;12274571184276    
+Reclamação - Coleta/Entrega - Manuseio;Motivo - Encomendas;encomendas_reclamação_coleta_entrega;12398445283348    
+;Sub - Motivo - Reclamação - Coleta/Entrega - Encomendas;sub_motivo_reclamação_coleta_entrega_encom_manuseio;12275179832852    
+Reclamação - Retirada - Retirada por Terceiros;Motivo - Encomendas;encomendas_reclamação_retirada;12398445283348    
+;Sub - Motivo - Reclamação - Retirada - Encomendas;sub_motivo_reclamação_retirada_encom_retirada_por_terceiros;12274054982164    
+Reclamação - Entrega - Remarcação;Motivo - Encomendas;encomendas_reclamação_entrega;12398445283348    
+;Sub - Motivo - Reclamação - Entrega - Encomendas;sub_motivo_reclamação_entrega_encom_remarcação;12273715614612    
+Reclamação - LGPD - Atualização de Dados Não Efetuada;Motivo - LGPD;lgpd_reclamação_lgpd;12399916522900    
+;Sub - Motivo - Reclamação - LGPD;sub_motivo_reclamação_lgpd_atualização_de_dados_não_efetuada;12275544894484    
+Reclamações - Cadastro - Correntistas;Motivo - Encomendas;encomendas_reclamações_cadastro;12398445283348    
+;Sub - Motivo - Reclamações - Cadastro - Encomendas;sub_motivo_reclamacão_cadastro_encom_correntistas;12274317222676    
+Reclamação - Valores/Fatura - Não recebeu Fatura;Motivo - Encomendas;encomendas_reclamação_valores;12398445283348    
+;Sub - Motivo - Reclamação - Valores/fatura - Encomendas;sub_motivo_reclamação_valores_coleta_encom_não_recebeu_fatura;12275140763796    
+Reclamação - Atendimento - Dias e Horários do Balcão;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348    
+;Sub - Motivo - Reclamação - Atendimento - Encomendas;sub_motivo_reclamação_atendimento_encom_dias_e_horários_do_balcão;12274254405268    
+Solicitação - Operacional - Extravio de Bagagem;Motivo - Rodoviário;Não Possui;12398945520788    
+;Sub - Motivo - Solicitação - Operacional - Rodoviário;sub_motivo_solicitação_operacional_rod_extravio_de_bagagem;12284668309780    
+Reclamação - Cotação - Efetivada;Motivo - Rodoviário;encomendas_reclamação_cotação;12398945520788    
+;Sub - Motivo - Reclamação - Cotação - Encomendas;sub_motivo_reclamação_cotação_encom_efetivada;12274930930452    
+Informação - Benefício - Advogado (Caasp/OAB);Motivo - Rodoviário;rodoviário_informação_beneficio;12398945520788    
+;Sub - Motivo - Informação - Beneficio - Rodoviário;sub_motivo_informacão_benefício_rod_advogado;12245897382804    
+Solicitação - Passagem - Cancelamento;Motivo - Rodoviário;rodoviário_solicitação_passagem;12398945520788    
+;Sub - Motivo - Solicitação - Passagem - Rodoviário;sub_motivo_solicitação_passagem_rod_cancelamento;12273286643220    
+Informação - Documentos - Animais;Motivo - Encomendas;encomendas_informação_documentos;12398445283348    
+;Sub - Motivo - Informação - Documentos - Encomendas;Não Possui;12273844602516    
+Reclamações - Gerais - Prazos Estimado de Entrega;Motivo - Encomendas;encomendas_reclamações_gerais;12398445283348    
+;Sub - Motivo - Reclamações - Gerais - Encomendas;sub_motivo_reclamações_gerais_encom_prazos_estimados_de_entrega;12274571184276    
+Reclamação - Valores/Fatura - Valor Diferente do Combinado;Motivo - Encomendas;encomendas_reclamação_valores;12398445283348    
+;Sub - Motivo - Reclamação - Valores/fatura - Encomendas;sub_motivo_reclamação_valores_coleta_encom_valor_diferente_do_combinado;12275140763796    
+Reclamação - Ônibus - Travesseiro;Motivo - Rodoviário;rodoviário_reclamação_ônibus;12398945520788    
+;Sub - Motivo - Reclamação - Ônibus - Rodoviário;sub_motivo_reclamação_ônibus_rod_travesseiro;12252812163092    
+Reclamação - Agência - Estrutura / Conforto;Motivo - Rodoviário;rodoviário_reclamação_agência;12398945520788    
+;Sub - Motivo - Reclamação - Agência - Rodoviário;sub_motivo_reclamação_agência_rod_estrutura_conforto;12251900155540    
+Reclamação - Coleta - Reagendamento;Motivo - Encomendas;encomendas_reclamação_coleta;12398445283348    
+;Sub - Motivo - Reclamação - Coleta - Encomendas;sub_motivo_reclamação_coleta_encom_reagendamento;12273708782228    
+Reclamação - Atendimento - Agente CRC;Motivo - Encomendas;encomendas_reclamação_atendimento;12398445283348    
+;Sub - Motivo - Reclamação - Atendimento - Encomendas ;sub_motivo_reclamação_atendimento_encom_agente_crc;12274254405268    
