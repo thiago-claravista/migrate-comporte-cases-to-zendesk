@@ -31,8 +31,8 @@ const init = async () => {
 
     // obtem o numero dos casos
     const _caseNumbers = cases?.map((c) => c.CASENUMBER);
-    if (_caseNumbers) {
-      caseNumbers.push(_caseNumbers);
+    if (_caseNumbers?.length) {
+      caseNumbers.push(..._caseNumbers);
     }
   }
 
