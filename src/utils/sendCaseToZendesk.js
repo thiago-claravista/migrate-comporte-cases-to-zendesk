@@ -180,8 +180,12 @@ const sendCaseToZendesk = async (_case) => {
         {
           id: 12218698327188, // Contact Mobile
           value:
-            Number(_case.CONTACTMOBILE?.split("/")?.[0]?.replace(/\D/g, "")) ||
-            "",
+            Number(
+              _case.CONTACTMOBILE?.split(/\/|(?<=\d)\s/)?.[0]?.replace(
+                /\D/g,
+                ""
+              )
+            ) || "",
         },
         {
           id: 12218684018196, // Contact Phone
