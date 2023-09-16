@@ -1203,7 +1203,7 @@ const init = async () => {
   if (casePage) {
     console.log(`Obtendo os casos da página ${casePage}...`);
     const options = {
-      subject: "Ligação Muda / Engano - Ligação Muda / Engano",
+      subject: "Call Back - Call Back",
     };
     const cases = await getCases(casePage, 100, options);
 
