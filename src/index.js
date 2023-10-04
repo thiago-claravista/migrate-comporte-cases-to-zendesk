@@ -13,27 +13,14 @@ const findTicket = require("./zendesk/findTicket");
 
 const init = async () => {
   // obtem os casos
-  // const casePage = getCasePage();
-  const casePage = null;
-  const caseNumbers = [
-    "00226260",
-    "00281073",
-    "00830617",
-    "00862034",
-    "00896789",
-    "01184698",
-    "01187154",
-    "01189458",
-    "01564578",
-    "01564618",
-    "01564851",
-    "01564895",
-  ];
+  const casePage = getCasePage();
+  // const casePage = null;
+  const caseNumbers = [];
 
   if (casePage) {
     console.log(`Obtendo os casos da página ${casePage}...`);
     const options = {
-      subject: "Call Back - Call Back",
+      subject: "Solicitação - Atendimento - Chamado Pendente",
     };
     const cases = await getCases(casePage, 100, options);
 
